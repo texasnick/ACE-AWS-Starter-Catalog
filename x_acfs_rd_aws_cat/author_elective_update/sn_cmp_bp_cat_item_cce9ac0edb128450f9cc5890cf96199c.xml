@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_cat_item">
+    <sn_cmp_bp_cat_item action="DELETE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <blue_print display_value="">e8a9600edb128450f9cc5890cf96198a</blue_print>
+        <catalog_type>2</catalog_type>
+        <category/>
+        <config_provider/>
+        <config_provider_name/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[CMP Blueprint]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Start</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>true</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cce9ac0edb128450f9cc5890cf96199c&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <provider_type/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Are you sure you want to perform this operation?</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <source_type>blueprint</source_type>
+        <stage_operation display_value="">11b9640edb128450f9cc5890cf961977</stage_operation>
+        <start_closed>false</start_closed>
+        <status>in_sync</status>
+        <sys_class_name>sn_cmp_bp_cat_item</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:32</sys_created_on>
+        <sys_id>cce9ac0edb128450f9cc5890cf96199c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Start</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_cat_item_cce9ac0edb128450f9cc5890cf96199c</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:50</sys_updated_on>
+        <template/>
+        <template_id/>
+        <template_type/>
+        <type>item</type>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Cloud Resource Operation Request">c61355e3875032003273f4bbe3e3ec2d</workflow>
+    </sn_cmp_bp_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=cce9ac0edb128450f9cc5890cf96199c"/>
+    <fx_price action="DELETE" query="id=cce9ac0edb128450f9cc5890cf96199c"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>cce9ac0edb128450f9cc5890cf96199c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:32</sys_created_on>
+        <sys_id>44e9ac0edb128450f9cc5890cf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:32</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>cce9ac0edb128450f9cc5890cf96199c</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:32</sys_created_on>
+        <sys_id>8ce9ac0edb128450f9cc5890cf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:32</sys_updated_on>
+        <table>sn_cmp_bp_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_cat_item_cce9ac0edb128450f9cc5890cf96199c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sn_cmp_bp_cat_item"&gt;&lt;sn_cmp_bp_cat_item action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;availability&gt;on_desktop&lt;/availability&gt;&lt;billable&gt;false&lt;/billable&gt;&lt;blue_print display_value=""&gt;e8a9600edb128450f9cc5890cf96198a&lt;/blue_print&gt;&lt;catalog_type&gt;2&lt;/catalog_type&gt;&lt;category/&gt;&lt;config_provider/&gt;&lt;config_provider_name/&gt;&lt;cost&gt;0&lt;/cost&gt;&lt;custom_cart/&gt;&lt;delivery_plan/&gt;&lt;delivery_plan_script/&gt;&lt;delivery_time&gt;1970-01-03 00:00:00&lt;/delivery_time&gt;&lt;description&gt;&lt;![CDATA[CMP Blueprint]]&gt;&lt;/description&gt;&lt;display_price_property&gt;non_zero&lt;/display_price_property&gt;&lt;entitlement_script/&gt;&lt;flow_designer_flow/&gt;&lt;group/&gt;&lt;hide_sp&gt;false&lt;/hide_sp&gt;&lt;icon/&gt;&lt;ignore_price&gt;false&lt;/ignore_price&gt;&lt;image/&gt;&lt;list_price&gt;0&lt;/list_price&gt;&lt;location/&gt;&lt;mandatory_attachment&gt;false&lt;/mandatory_attachment&gt;&lt;meta/&gt;&lt;mobile_hide_price&gt;false&lt;/mobile_hide_price&gt;&lt;mobile_picture/&gt;&lt;mobile_picture_type&gt;use_desktop_picture&lt;/mobile_picture_type&gt;&lt;model/&gt;&lt;name&gt;Start&lt;/name&gt;&lt;no_attachment_v2&gt;false&lt;/no_attachment_v2&gt;&lt;no_cart&gt;false&lt;/no_cart&gt;&lt;no_cart_v2&gt;false&lt;/no_cart_v2&gt;&lt;no_delivery_time_v2&gt;false&lt;/no_delivery_time_v2&gt;&lt;no_order&gt;false&lt;/no_order&gt;&lt;no_order_now&gt;false&lt;/no_order_now&gt;&lt;no_proceed_checkout&gt;true&lt;/no_proceed_checkout&gt;&lt;no_quantity&gt;true&lt;/no_quantity&gt;&lt;no_quantity_v2&gt;false&lt;/no_quantity_v2&gt;&lt;no_search&gt;false&lt;/no_search&gt;&lt;no_wishlist_v2&gt;false&lt;/no_wishlist_v2&gt;&lt;omit_price&gt;false&lt;/omit_price&gt;&lt;order&gt;0&lt;/order&gt;&lt;ordered_item_link/&gt;&lt;picture/&gt;&lt;preview&gt;JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;amp;sysparm_id=cce9ac0edb128450f9cc5890cf96199c&amp;amp;sysparm_preview=true", "summary");&lt;/preview&gt;&lt;price&gt;0&lt;/price&gt;&lt;provider_type/&gt;&lt;recurring_frequency/&gt;&lt;recurring_price&gt;0&lt;/recurring_price&gt;&lt;request_method/&gt;&lt;roles/&gt;&lt;sc_catalogs/&gt;&lt;sc_ic_item_staging/&gt;&lt;sc_ic_version/&gt;&lt;short_description&gt;Are you sure you want to perform this operation?&lt;/short_description&gt;&lt;show_variable_help_on_load&gt;false&lt;/show_variable_help_on_load&gt;&lt;source_type&gt;blueprint&lt;/source_type&gt;&lt;stage_operation display_value=""&gt;11b9640edb128450f9cc5890cf961977&lt;/stage_operation&gt;&lt;start_closed&gt;false&lt;/start_closed&gt;&lt;status&gt;in_sync&lt;/status&gt;&lt;sys_class_name&gt;sn_cmp_bp_cat_item&lt;/sys_class_name&gt;&lt;sys_created_by&gt;david.loo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-13 15:30:32&lt;/sys_created_on&gt;&lt;sys_id&gt;cce9ac0edb128450f9cc5890cf96199c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Start&lt;/sys_name&gt;&lt;sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat"&gt;2d697149db96cc10f9cc5890cf961965&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACP4G-RD-AWS Starter Catalog"&gt;2d697149db96cc10f9cc5890cf961965&lt;/sys_scope&gt;&lt;sys_update_name&gt;sn_cmp_bp_cat_item_cce9ac0edb128450f9cc5890cf96199c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;tom.blevins&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-05 16:52:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;template_id/&gt;&lt;template_type/&gt;&lt;type&gt;item&lt;/type&gt;&lt;use_sc_layout&gt;false&lt;/use_sc_layout&gt;&lt;vendor/&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;workflow display_value="Cloud Resource Operation Request"&gt;c61355e3875032003273f4bbe3e3ec2d&lt;/workflow&gt;&lt;/sn_cmp_bp_cat_item&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cce9ac0edb128450f9cc5890cf96199c"/&gt;&lt;fx_price action="delete_multiple" query="id=cce9ac0edb128450f9cc5890cf96199c"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price&lt;/field&gt;&lt;id&gt;cce9ac0edb128450f9cc5890cf96199c&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;david.loo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-13 15:30:32&lt;/sys_created_on&gt;&lt;sys_id&gt;44e9ac0edb128450f9cc5890cf96199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;david.loo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-13 15:30:32&lt;/sys_updated_on&gt;&lt;table&gt;sn_cmp_bp_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;recurring_price&lt;/field&gt;&lt;id&gt;cce9ac0edb128450f9cc5890cf96199c&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;david.loo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-13 15:30:32&lt;/sys_created_on&gt;&lt;sys_id&gt;8ce9ac0edb128450f9cc5890cf96199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;david.loo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-13 15:30:32&lt;/sys_updated_on&gt;&lt;table&gt;sn_cmp_bp_cat_item&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1036884085</payload_hash>
+        <record_name>Start</record_name>
+        <reverted_from/>
+        <source>608b256cdbba0814f9cc5890cf961970</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:51</sys_created_on>
+        <sys_id>4e495755dbbe8814085bf05e0f9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701644c7370000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:51</sys_updated_on>
+        <type>Cloud Catalog Item</type>
+        <update_guid>464957550fbe8814681170e3bac7c2a8</update_guid>
+        <update_guid_history>464957550fbe8814681170e3bac7c2a8:1036884085,30e9ec0e6912845085477709cc8b7b7d:1875511832,5753f5ec2fa20890eb2db02047749393:1513746430,cf43f1ec26a20890dd606a0f6ffc8012:-534354345,f072352cb9a2089060350e348a7af539:-1649461170,f072352cb9a2089060350e348a7af539:-1649461170,30e9ec0e6912845085477709cc8b7b7d:1875511832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e2499755dbbe8814085bf05e0f96191a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:52</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_cat_item">sn_cmp_bp_cat_item</sys_db_object>
+        <sys_id>529508f30daf4fbea2e917175fd805d9</sys_id>
+        <sys_metadata>cce9ac0edb128450f9cc5890cf96199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Start</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_cat_item_cce9ac0edb128450f9cc5890cf96199c</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_cat_item_cce9ac0edb128450f9cc5890cf96199c">4e495755dbbe8814085bf05e0f9619a8</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

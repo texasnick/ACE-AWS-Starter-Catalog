@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_rule_info">
+    <sn_cmp_bp_rule_info action="DELETE">
+        <guest display_value="Azure VM RedHat 7 Blueprint Resource">25d6a846db128450f9cc5890cf9619ef</guest>
+        <host_resource>Any</host_resource>
+        <operation>Provision</operation>
+        <rule_json>{
+   "#ChoiceAttr#": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "CloudAccount",
+            "ApplicableHost": "Any",
+            "Condition": "$this.resource.host.constraints != null"
+         }]
+      },
+      "Hide": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Show": {
+         "Attributes": [{
+            "Name": "CreateResourceGroup",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "MakeMandatory": {
+
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "CloudAccount",
+               "ApplicableHost": "Any",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Reload - ": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter,Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "FormLoad": {
+      "Hide": {
+         "Attributes": [{
+            "Name": "SubscriptionId",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+            "Name": "SubscriptionId",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "#ChoiceAttr#",
+            "ApplicableHost": "Any",
+            "AdditionalRules": "",
+            "Value": "AWS Datacenter"
+         }]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "#ChoiceAttr#",
+               "ApplicableHost": "Any",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Reload": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "CloudAccount": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "Location",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+            "Name": "Location",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "Location": {
+      "TriggerChangeEvent": {
+         "Attributes": [{
+            "Name": "UserGroup",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "UserGroup": {
+      "FormPropertyName": "UserGroup",
+      "Reload": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "Hide": {
+
+      },
+      "Show": {
+
+      },
+      "TriggerChangeEvent": {
+
+      }
+   },
+   "CreateResourceGroup": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "ResourceGroup",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "ResourceGroupName",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": [
+
+            ],
+            "Value": ""
+         }]
+      },
+      "Hide": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "Show": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "MakeMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes",
+                  "BracesOnStart": "(",
+                  "BracesOnEnd": ")"
+               }]
+            }
+         ]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "110",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            }]
+      },
+      "SetValue_ResourceGroupName": {
+		      "ActionType": "SetValue",
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "120",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }],
+               "Value": ""
+            }]
+      }
+   },
+   "ResourceGroup": {
+      "Reload": {
+         "Attributes": [
+
+         ]
+      },
+      "Hide": {
+
+      },
+      "Show": {
+
+      },
+      "TriggerChangeEvent": {
+
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "ResourceGroupName",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": [
+
+            ],
+            "Value": "${ResourceGroup}"
+         }]
+      }
+   }
+}</rule_json>
+        <sys_class_name>sn_cmp_bp_rule_info</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:15</sys_created_on>
+        <sys_id>add6a846db128450f9cc5890cf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_rule_info_add6a846db128450f9cc5890cf9619ef</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:15</sys_updated_on>
+        <template_type/>
+    </sn_cmp_bp_rule_info>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_rule_info_add6a846db128450f9cc5890cf9619ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_rule_info"><sn_cmp_bp_rule_info action="INSERT_OR_UPDATE"><guest display_value="Azure VM RedHat 7 Blueprint Resource">25d6a846db128450f9cc5890cf9619ef</guest><host_resource>Any</host_resource><operation>Provision</operation><rule_json>{
+   "#ChoiceAttr#": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "CloudAccount",
+            "ApplicableHost": "Any",
+            "Condition": "$this.resource.host.constraints != null"
+         }]
+      },
+      "Hide": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Show": {
+         "Attributes": [{
+            "Name": "CreateResourceGroup",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "MakeMandatory": {
+
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "CloudAccount",
+               "ApplicableHost": "Any",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Reload - ": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "AWS Datacenter,OpenStack Datacenter,vSphere Datacenter,Xen Datacenter,CenturyLink Datacenter,Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "FormLoad": {
+      "Hide": {
+         "Attributes": [{
+            "Name": "SubscriptionId",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+            "Name": "SubscriptionId",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "#ChoiceAttr#",
+            "ApplicableHost": "Any",
+            "AdditionalRules": "",
+            "Value": "AWS Datacenter"
+         }]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "#ChoiceAttr#",
+               "ApplicableHost": "Any",
+               "AdditionalRules": ""
+            },
+            {
+               "Name": "CreateResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": ""
+            }
+         ]
+      },
+      "Reload": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "CloudAccount": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "Location",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+            "Name": "Location",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "Location": {
+      "TriggerChangeEvent": {
+         "Attributes": [{
+            "Name": "UserGroup",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      }
+   },
+   "UserGroup": {
+      "FormPropertyName": "UserGroup",
+      "Reload": {
+         "ActionType": "Reload",
+         "Attributes": [{
+            "Name": "Quota",
+            "ApplicableHost": "Any",
+            "AdditionalRules": ""
+         }]
+      },
+      "Hide": {
+
+      },
+      "Show": {
+
+      },
+      "TriggerChangeEvent": {
+
+      }
+   },
+   "CreateResourceGroup": {
+      "Reload": {
+         "Attributes": [{
+            "Name": "ResourceGroup",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": ""
+         }]
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "ResourceGroupName",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": [
+
+            ],
+            "Value": ""
+         }]
+      },
+      "Hide": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "Show": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "MakeNonMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }]
+            }
+         ]
+      },
+      "MakeMandatory": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            },
+            {
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "100",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes",
+                  "BracesOnStart": "(",
+                  "BracesOnEnd": ")"
+               }]
+            }
+         ]
+      },
+      "TriggerChangeEvent": {
+         "Attributes": [{
+               "Name": "ResourceGroup",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "110",
+                  "Operator": "EqualsTo",
+                  "Value": "No"
+               }]
+            }]
+      },
+      "SetValue_ResourceGroupName": {
+		      "ActionType": "SetValue",
+         "Attributes": [{
+               "Name": "ResourceGroupName",
+               "ApplicableHost": "Azure Datacenter",
+               "AdditionalRules": [{
+                  "Operand": "CreateResourceGroup",
+                  "ConditionType": "And",
+                  "Order": "120",
+                  "Operator": "EqualsTo",
+                  "Value": "Yes"
+               }],
+               "Value": ""
+            }]
+      }
+   },
+   "ResourceGroup": {
+      "Reload": {
+         "Attributes": [
+
+         ]
+      },
+      "Hide": {
+
+      },
+      "Show": {
+
+      },
+      "TriggerChangeEvent": {
+
+      },
+      "SetValue": {
+         "Attributes": [{
+            "Name": "ResourceGroupName",
+            "ApplicableHost": "Azure Datacenter",
+            "AdditionalRules": [
+
+            ],
+            "Value": "${ResourceGroup}"
+         }]
+      }
+   }
+}</rule_json><sys_class_name>sn_cmp_bp_rule_info</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:17:15</sys_created_on><sys_id>add6a846db128450f9cc5890cf9619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_rule_info_add6a846db128450f9cc5890cf9619ef</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:17:15</sys_updated_on><template_type/></sn_cmp_bp_rule_info></record_update>]]></payload>
+        <payload_hash>1572184884</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:15</sys_created_on>
+        <sys_id>e1d6a846db128450f9cc5890cf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7afefa0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:15</sys_updated_on>
+        <type>Rule Info</type>
+        <update_guid>2dd6a8466512845027948b77f301cef0</update_guid>
+        <update_guid_history>2dd6a8466512845027948b77f301cef0:1572184884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b058684adb128450f9cc5890cf961964</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:45</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_rule_info">sn_cmp_bp_rule_info</sys_db_object>
+        <sys_id>5a4bc70c3ca1406fbd07980e9cb27911</sys_id>
+        <sys_metadata>add6a846db128450f9cc5890cf9619ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_rule_info_add6a846db128450f9cc5890cf9619ef</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_rule_info_add6a846db128450f9cc5890cf9619ef">e1d6a846db128450f9cc5890cf9619f1</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

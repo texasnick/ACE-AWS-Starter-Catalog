@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">aae0608adbde4450f9cc5890cf9619dc</interface>
+        <name>providerAPIParameters</name>
+        <operation display_value="Provision">60f0648adbde4450f9cc5890cf9619dc</operation>
+        <order>40</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:51:33</sys_created_on>
+        <sys_id>41f0a48adbde4450f9cc5890cf961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>providerAPIParameters</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_41f0a48adbde4450f9cc5890cf961977</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:51:33</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_param_41f0a48adbde4450f9cc5890cf961977</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">aae0608adbde4450f9cc5890cf9619dc</interface><name>providerAPIParameters</name><operation display_value="Provision">60f0648adbde4450f9cc5890cf9619dc</operation><order>40</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 14:51:33</sys_created_on><sys_id>41f0a48adbde4450f9cc5890cf961977</sys_id><sys_mod_count>0</sys_mod_count><sys_name>providerAPIParameters</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_param_41f0a48adbde4450f9cc5890cf961977</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 14:51:33</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>254955899</payload_hash>
+        <record_name>providerAPIParameters</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:51:34</sys_created_on>
+        <sys_id>01f0a48adbde4450f9cc5890cf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f6379170000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:51:34</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>49f0a48afdde44500f18b7a269838078</update_guid>
+        <update_guid_history>49f0a48afdde44500f18b7a269838078:254955899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">82f0e48adbde4450f9cc5890cf961931</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:51:37</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>02e547e62fc24478818da427716fcb90</sys_id>
+        <sys_metadata>41f0a48adbde4450f9cc5890cf961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>providerAPIParameters</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_41f0a48adbde4450f9cc5890cf961977</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_41f0a48adbde4450f9cc5890cf961977">01f0a48adbde4450f9cc5890cf961979</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:51:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step">
+    <sn_cmp_rb_op_impl_step action="DELETE">
+        <capi_interface/>
+        <capi_method/>
+        <capi_version/>
+        <condition/>
+        <depends_on/>
+        <enabled>true</enabled>
+        <flow_type/>
+        <force_async>false</force_async>
+        <interface/>
+        <interface_operation/>
+        <name>CmpBusinessScheduleUtil.modifySchedule</name>
+        <operationimpl display_value="ModifySchedule">f4e66c46db128450f9cc5890cf96192b</operationimpl>
+        <order>20</order>
+        <owner_type>5</owner_type>
+        <parent_step/>
+        <parentstep/>
+        <product_type/>
+        <provider/>
+        <provider_ref/>
+        <provider_type/>
+        <resource_interface/>
+        <sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:29</sys_created_on>
+        <sys_id>2f172886db128450f9cc5890cf9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CmpBusinessScheduleUtil.modifySchedule</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_step_2f172886db128450f9cc5890cf9619bf</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:29</sys_updated_on>
+        <target_entity_flow/>
+    </sn_cmp_rb_op_impl_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_step_2f172886db128450f9cc5890cf9619bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step"><sn_cmp_rb_op_impl_step action="INSERT_OR_UPDATE"><capi_interface/><capi_method/><capi_version/><condition/><depends_on/><enabled>true</enabled><flow_type/><force_async>false</force_async><interface/><interface_operation/><name>CmpBusinessScheduleUtil.modifySchedule</name><operationimpl display_value="ModifySchedule">f4e66c46db128450f9cc5890cf96192b</operationimpl><order>20</order><owner_type>5</owner_type><parent_step/><parentstep/><product_type/><provider/><provider_ref/><provider_type/><resource_interface/><sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:29</sys_created_on><sys_id>2f172886db128450f9cc5890cf9619bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CmpBusinessScheduleUtil.modifySchedule</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_step_2f172886db128450f9cc5890cf9619bf</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:29</sys_updated_on><target_entity_flow/></sn_cmp_rb_op_impl_step></record_update>]]></payload>
+        <payload_hash>1854669642</payload_hash>
+        <record_name>CmpBusinessScheduleUtil.modifySchedule</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:29</sys_created_on>
+        <sys_id>a3172886db128450f9cc5890cf9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7c1f1a0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:29</sys_updated_on>
+        <type>Operation Step</type>
+        <update_guid>eb1728867a1284503770708bba52cdc0</update_guid>
+        <update_guid_history>eb1728867a1284503770708bba52cdc0:1854669642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7248e44adb128450f9cc5890cf961993</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:37</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_step">sn_cmp_rb_op_impl_step</sys_db_object>
+        <sys_id>513b884a636348f49cfc6793ad277ae4</sys_id>
+        <sys_metadata>2f172886db128450f9cc5890cf9619bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CmpBusinessScheduleUtil.modifySchedule</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_step_2f172886db128450f9cc5890cf9619bf</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_step_2f172886db128450f9cc5890cf9619bf">a3172886db128450f9cc5890cf9619c1</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

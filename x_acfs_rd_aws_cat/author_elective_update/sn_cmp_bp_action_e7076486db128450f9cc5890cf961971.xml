@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action">
+    <sn_cmp_bp_action action="DELETE">
+        <action_type>5</action_type>
+        <datasource/>
+        <name>MakeNonMandatory ResourceGroupName</name>
+        <order>10</order>
+        <rule display_value="MakeNonMandatory ResourceGroupName">6f076486db128450f9cc5890cf96196f</rule>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:12</sys_created_on>
+        <sys_id>e7076486db128450f9cc5890cf961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MakeNonMandatory ResourceGroupName</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_action_e7076486db128450f9cc5890cf961971</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:12</sys_updated_on>
+        <target_attr display_value="ResourceGroupName">6807a086db128450f9cc5890cf9619e4</target_attr>
+        <target_attribute>ResourceGroupName</target_attribute>
+        <target_attribute_select/>
+        <value/>
+    </sn_cmp_bp_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_action_e7076486db128450f9cc5890cf961971</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action"><sn_cmp_bp_action action="INSERT_OR_UPDATE"><action_type>5</action_type><datasource/><name>MakeNonMandatory ResourceGroupName</name><order>10</order><rule display_value="MakeNonMandatory ResourceGroupName">6f076486db128450f9cc5890cf96196f</rule><status>1</status><sys_class_name>sn_cmp_bp_action</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:12</sys_created_on><sys_id>e7076486db128450f9cc5890cf961971</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MakeNonMandatory ResourceGroupName</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_action_e7076486db128450f9cc5890cf961971</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:12</sys_updated_on><target_attr display_value="ResourceGroupName">6807a086db128450f9cc5890cf9619e4</target_attr><target_attribute>ResourceGroupName</target_attribute><target_attribute_select/><value/></sn_cmp_bp_action></record_update>]]></payload>
+        <payload_hash>1700739607</payload_hash>
+        <record_name>MakeNonMandatory ResourceGroupName</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:12</sys_created_on>
+        <sys_id>eb076486db128450f9cc5890cf961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7bde700000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:12</sys_updated_on>
+        <type>Action</type>
+        <update_guid>27076486281284500539754be95fe172</update_guid>
+        <update_guid_history>27076486281284500539754be95fe172:1700739607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a408a40adb128450f9cc5890cf9619ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:22:23</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_action">sn_cmp_bp_action</sys_db_object>
+        <sys_id>066992bd05bb4a849f4972d34d5bdbe1</sys_id>
+        <sys_metadata>e7076486db128450f9cc5890cf961971</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MakeNonMandatory ResourceGroupName</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_action_e7076486db128450f9cc5890cf961971</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_action_e7076486db128450f9cc5890cf961971">eb076486db128450f9cc5890cf961972</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:22:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

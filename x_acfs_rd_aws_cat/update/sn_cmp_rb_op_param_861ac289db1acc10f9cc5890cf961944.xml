@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="INSERT_OR_UPDATE">
+        <interface display_value="Standard EC2 Instance Resource Interface">0e1ac289db1acc10f9cc5890cf961904</interface>
+        <name>CloudAccount</name>
+        <operation display_value="Provision">8e1ac289db1acc10f9cc5890cf96193f</operation>
+        <order>10</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:00</sys_created_on>
+        <sys_id>861ac289db1acc10f9cc5890cf961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_861ac289db1acc10f9cc5890cf961944</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:00</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+</record_update>

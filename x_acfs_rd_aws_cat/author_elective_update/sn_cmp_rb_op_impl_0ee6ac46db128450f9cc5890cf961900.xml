@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl">
+    <sn_cmp_rb_op_impl action="DELETE">
+        <interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface>
+        <operation display_value="ModifyLease">06e66c46db128450f9cc5890cf9619fd</operation>
+        <operation_output_attributes/>
+        <resource display_value="Azure VM RedHat 7 Blueprint Resource">25d6a846db128450f9cc5890cf9619ef</resource>
+        <sys_class_name>sn_cmp_rb_op_impl</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:34</sys_created_on>
+        <sys_id>0ee6ac46db128450f9cc5890cf961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>06e66c46db128450f9cc5890cf9619fd</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_0ee6ac46db128450f9cc5890cf961900</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:34</sys_updated_on>
+    </sn_cmp_rb_op_impl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_0ee6ac46db128450f9cc5890cf961900</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl"><sn_cmp_rb_op_impl action="INSERT_OR_UPDATE"><interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface><operation display_value="ModifyLease">06e66c46db128450f9cc5890cf9619fd</operation><operation_output_attributes/><resource display_value="Azure VM RedHat 7 Blueprint Resource">25d6a846db128450f9cc5890cf9619ef</resource><sys_class_name>sn_cmp_rb_op_impl</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:17:34</sys_created_on><sys_id>0ee6ac46db128450f9cc5890cf961900</sys_id><sys_mod_count>0</sys_mod_count><sys_name>06e66c46db128450f9cc5890cf9619fd</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_0ee6ac46db128450f9cc5890cf961900</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:17:34</sys_updated_on></sn_cmp_rb_op_impl></record_update>]]></payload>
+        <payload_hash>1053844894</payload_hash>
+        <record_name>06e66c46db128450f9cc5890cf9619fd</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:35</sys_created_on>
+        <sys_id>1ae6ac46db128450f9cc5890cf96193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7b4b1a0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:35</sys_updated_on>
+        <type>Operation Implementation</type>
+        <update_guid>52e6ac4684128450e4c37e91d193c23a</update_guid>
+        <update_guid_history>52e6ac4684128450e4c37e91d193c23a:1053844894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e948a44adb128450f9cc5890cf961907</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:32</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl">sn_cmp_rb_op_impl</sys_db_object>
+        <sys_id>ab9a9362abd044f09c67aead3c1648e1</sys_id>
+        <sys_metadata>0ee6ac46db128450f9cc5890cf961900</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>06e66c46db128450f9cc5890cf9619fd</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_0ee6ac46db128450f9cc5890cf961900</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_0ee6ac46db128450f9cc5890cf961900">1ae6ac46db128450f9cc5890cf96193a</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

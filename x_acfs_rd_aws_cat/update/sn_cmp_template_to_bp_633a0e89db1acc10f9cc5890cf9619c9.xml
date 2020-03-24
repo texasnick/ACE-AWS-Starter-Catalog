@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_template_to_bp">
+    <sn_cmp_template_to_bp action="INSERT_OR_UPDATE">
+        <blueprint display_value="Standard EC2 Instance">a51a8289db1acc10f9cc5890cf9619a8</blueprint>
+        <sys_class_name>sn_cmp_template_to_bp</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>633a0e89db1acc10f9cc5890cf9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_template_to_bp_633a0e89db1acc10f9cc5890cf9619c9</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:39</sys_updated_on>
+        <template display_value="Standard EC2 Instance">64c98249db1acc10f9cc5890cf961975</template>
+    </sn_cmp_template_to_bp>
+</record_update>

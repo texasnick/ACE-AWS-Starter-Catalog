@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_cloud_template_version">
+    <sn_cmp_cloud_template_version action="INSERT_OR_UPDATE">
+        <attachment>f2d2d0b0dbf64414085bf05e0f961992</attachment>
+        <body>AWSTemplateFormatVersion: '2010-09-09'
+Metadata: 
+  License: Apache-2.0
+Description: 'AWS CloudFormation Sample Template S3_Website_Bucket_With_Retain_On_Delete:
+  Sample template showing how to create a publicly accessible S3 bucket configured
+  for website access with a deletion policy of retain on delete. **WARNING** This
+  template creates an S3 bucket that will NOT be deleted when the stack is deleted.
+  You will be billed for the AWS resources used if you create a stack from this template.'
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+    DeletionPolicy: Retain
+Outputs:
+  WebsiteURL:
+    Value: !GetAtt [S3Bucket, WebsiteURL]
+    Description: URL for website hosted on S3
+  S3BucketSecureURL:
+    Value: !Join ['', ['https://', !GetAtt [S3Bucket, DomainName]]]
+    Description: Name of S3 bucket to hold website content</body>
+        <cloud_template_url/>
+        <config_installable/>
+        <config_installable_name/>
+        <format display_value="YAML">0fd3bffc872313008de7483cf6cb0b48</format>
+        <ingestion_method>upload</ingestion_method>
+        <short_description>S3_Website_Bucket_With_Retain_On_Delete.v1.yaml</short_description>
+        <state>published</state>
+        <status>success</status>
+        <status_message>Template is valid and saved.</status_message>
+        <sys_class_name>sn_cmp_cloud_template_version</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 13:08:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccb290b0dbf64414085bf05e0f961980</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_cloud_template_version_ccb290b0dbf64414085bf05e0f961980</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 13:10:00</sys_updated_on>
+        <template display_value="AWS Create S3 Bucket">6f625cfcdbb64414085bf05e0f9619e5</template>
+        <version>1</version>
+    </sn_cmp_cloud_template_version>
+</record_update>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>360</order>
+        <question display_value="Standard EC2 Instance InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:54</sys_created_on>
+        <sys_id>974ace89db1acc10f9cc5890cf96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i3.2xlarge</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>question_choice_974ace89db1acc10f9cc5890cf96192f</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:54</sys_updated_on>
+        <text>i3.2xlarge</text>
+        <value>i3.2xlarge</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=974ace89db1acc10f9cc5890cf96192f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>974ace89db1acc10f9cc5890cf96192f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:54</sys_created_on>
+        <sys_id>1b4ace89db1acc10f9cc5890cf961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:54</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>974ace89db1acc10f9cc5890cf96192f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:54</sys_created_on>
+        <sys_id>df4ace89db1acc10f9cc5890cf96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:54</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>question_choice_974ace89db1acc10f9cc5890cf96192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>360</order><question display_value="Standard EC2 Instance InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 19:57:54</sys_created_on><sys_id>974ace89db1acc10f9cc5890cf96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>i3.2xlarge</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>question_choice_974ace89db1acc10f9cc5890cf96192f</sys_update_name><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 19:57:54</sys_updated_on><text>i3.2xlarge</text><value>i3.2xlarge</value></question_choice><fx_price action="delete_multiple" query="id=974ace89db1acc10f9cc5890cf96192f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>974ace89db1acc10f9cc5890cf96192f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 19:57:54</sys_created_on><sys_id>1b4ace89db1acc10f9cc5890cf961930</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 19:57:54</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>974ace89db1acc10f9cc5890cf96192f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 19:57:54</sys_created_on><sys_id>df4ace89db1acc10f9cc5890cf96192f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 19:57:54</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>153815436</payload_hash>
+        <record_name>i3.2xlarge</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:57:54</sys_created_on>
+        <sys_id>d34ace89db1acc10f9cc5890cf961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9108dc010000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:54</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>1f4ace890a1acc1047d6e7c91131f531</update_guid>
+        <update_guid_history>1f4ace890a1acc1047d6e7c91131f531:153815436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4d705ec5db5acc10f9cc5890cf961936</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 20:24:47</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>69477233db554ee482f219d5fdd25790</sys_id>
+        <sys_metadata>974ace89db1acc10f9cc5890cf96192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>i3.2xlarge</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent display_value="InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>question_choice_974ace89db1acc10f9cc5890cf96192f</sys_update_name>
+        <sys_update_version display_value="question_choice_974ace89db1acc10f9cc5890cf96192f">d34ace89db1acc10f9cc5890cf961932</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 20:24:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

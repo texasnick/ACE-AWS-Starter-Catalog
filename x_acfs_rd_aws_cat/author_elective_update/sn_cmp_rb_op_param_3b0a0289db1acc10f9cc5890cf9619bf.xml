@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="Standard EC2 Instance Interface">260ac649db1acc10f9cc5890cf961917</interface>
+        <name>CloudAccount</name>
+        <operation display_value="Provision">ff0a0289db1acc10f9cc5890cf9619bc</operation>
+        <order>10</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:56:50</sys_created_on>
+        <sys_id>3b0a0289db1acc10f9cc5890cf9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_3b0a0289db1acc10f9cc5890cf9619bf</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:56:50</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_param_3b0a0289db1acc10f9cc5890cf9619bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="Standard EC2 Instance Interface">260ac649db1acc10f9cc5890cf961917</interface><name>CloudAccount</name><operation display_value="Provision">ff0a0289db1acc10f9cc5890cf9619bc</operation><order>10</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 19:56:50</sys_created_on><sys_id>3b0a0289db1acc10f9cc5890cf9619bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CloudAccount</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_param_3b0a0289db1acc10f9cc5890cf9619bf</sys_update_name><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 19:56:50</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>1993832448</payload_hash>
+        <record_name>CloudAccount</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:56:50</sys_created_on>
+        <sys_id>f30a0289db1acc10f9cc5890cf9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9107e2e40000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:56:50</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>3f0a0289911acc1033c6eb83e160d5c3</update_guid>
+        <update_guid_history>3f0a0289911acc1033c6eb83e160d5c3:1993832448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a81a4289db1acc10f9cc5890cf96197a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:56:53</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>787c0aae12574ed892d19c5c5e1a7cc9</sys_id>
+        <sys_metadata>3b0a0289db1acc10f9cc5890cf9619bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_3b0a0289db1acc10f9cc5890cf9619bf</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_3b0a0289db1acc10f9cc5890cf9619bf">f30a0289db1acc10f9cc5890cf9619c4</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:56:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

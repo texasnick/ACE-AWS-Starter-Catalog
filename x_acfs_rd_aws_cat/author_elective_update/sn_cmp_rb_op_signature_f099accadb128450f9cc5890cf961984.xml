@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="DELETE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="Azure VM RedHat 7 Interface">a099accadb128450f9cc5890cf96192c</interface>
+        <name>Deprovision</name>
+        <operation_type/>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:13</sys_created_on>
+        <sys_id>f099accadb128450f9cc5890cf961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deprovision</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_f099accadb128450f9cc5890cf961984</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:13</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_signature_f099accadb128450f9cc5890cf961984</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature"><sn_cmp_rb_op_signature action="INSERT_OR_UPDATE"><access_type>2</access_type><applicable_to/><interface display_value="Azure VM RedHat 7 Interface">a099accadb128450f9cc5890cf96192c</interface><name>Deprovision</name><operation_type/><sys_class_name>sn_cmp_rb_op_signature</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:13</sys_created_on><sys_id>f099accadb128450f9cc5890cf961984</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Deprovision</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_signature_f099accadb128450f9cc5890cf961984</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:13</sys_updated_on></sn_cmp_rb_op_signature></record_update>]]></payload>
+        <payload_hash>-297579965</payload_hash>
+        <record_name>Deprovision</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:50</sys_created_on>
+        <sys_id>a2453da4dbe20890085bf05e0f96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b4cfc80000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:50</sys_updated_on>
+        <type>OperationSignature</type>
+        <update_guid>bc99accafc12845003b61a3b604addb0</update_guid>
+        <update_guid_history>bc99accafc12845003b61a3b604addb0:-297579965,1e43b1ecdea2089074d7110c9799d768:-592806739,bc99accafc12845003b61a3b604addb0:-297579965</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">63599f55dbbe8814085bf05e0f9619f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:13</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_signature">sn_cmp_rb_op_signature</sys_db_object>
+        <sys_id>065d146e1a6f42338091785f46def9e1</sys_id>
+        <sys_metadata>f099accadb128450f9cc5890cf961984</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deprovision</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_signature_f099accadb128450f9cc5890cf961984</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_signature_f099accadb128450f9cc5890cf961984">a2453da4dbe20890085bf05e0f96196a</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="DELETE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface>
+        <name>ModifyLease</name>
+        <operation_type display_value="RECONFIGURE">333788ea0b7032009e620bcb15673ac9</operation_type>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:46</sys_created_on>
+        <sys_id>fcb9240edb128450f9cc5890cf9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ModifyLease</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_fcb9240edb128450f9cc5890cf9619ee</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:46</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_signature_fcb9240edb128450f9cc5890cf9619ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature"><sn_cmp_rb_op_signature action="INSERT_OR_UPDATE"><access_type>2</access_type><applicable_to/><interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface><name>ModifyLease</name><operation_type display_value="RECONFIGURE">333788ea0b7032009e620bcb15673ac9</operation_type><sys_class_name>sn_cmp_rb_op_signature</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:46</sys_created_on><sys_id>fcb9240edb128450f9cc5890cf9619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ModifyLease</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_signature_fcb9240edb128450f9cc5890cf9619ee</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:46</sys_updated_on></sn_cmp_rb_op_signature></record_update>]]></payload>
+        <payload_hash>1662030398</payload_hash>
+        <record_name>ModifyLease</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:50</sys_created_on>
+        <sys_id>a6453da4dbe20890085bf05e0f96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b4d0240000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:50</sys_updated_on>
+        <type>OperationSignature</type>
+        <update_guid>b4b9240e98128450c0ac98cc460dd6f0</update_guid>
+        <update_guid_history>b4b9240e98128450c0ac98cc460dd6f0:1662030398,70d2b96c4da208906dee9e3debb3a649:451875388,b4b9240e98128450c0ac98cc460dd6f0:1662030398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a959db55dbbe8814085bf05e0f9619c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:05</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_signature">sn_cmp_rb_op_signature</sys_db_object>
+        <sys_id>3c0b0b8e6f434f5292e8a41b9b7f0451</sys_id>
+        <sys_metadata>fcb9240edb128450f9cc5890cf9619ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ModifyLease</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_signature_fcb9240edb128450f9cc5890cf9619ee</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_signature_fcb9240edb128450f9cc5890cf9619ee">a6453da4dbe20890085bf05e0f96196d</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

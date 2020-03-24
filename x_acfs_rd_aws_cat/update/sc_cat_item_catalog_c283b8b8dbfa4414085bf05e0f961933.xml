@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Deprovision">3d8378b8dbfa4414085bf05e0f9619f1</sc_cat_item>
+        <sc_catalog display_value="Cloud Operation Catalog">c1b81478678232005ca552e457415a6e</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 15:31:43</sys_created_on>
+        <sys_id>c283b8b8dbfa4414085bf05e0f961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Operation Catalog.Deprovision</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c283b8b8dbfa4414085bf05e0f961933</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 15:31:43</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

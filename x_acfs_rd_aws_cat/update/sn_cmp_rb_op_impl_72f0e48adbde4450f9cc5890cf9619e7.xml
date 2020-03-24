@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl">
+    <sn_cmp_rb_op_impl action="INSERT_OR_UPDATE">
+        <interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Interface">aae0608adbde4450f9cc5890cf9619dc</interface>
+        <operation display_value="Start">baf0e48adbde4450f9cc5890cf9619e5</operation>
+        <operation_output_attributes/>
+        <resource display_value="AWS EC2 Microsoft Windows Server 2016 Base">fae0e08adbde4450f9cc5890cf9619f5</resource>
+        <sys_class_name>sn_cmp_rb_op_impl</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:51:40</sys_created_on>
+        <sys_id>72f0e48adbde4450f9cc5890cf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>baf0e48adbde4450f9cc5890cf9619e5</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_72f0e48adbde4450f9cc5890cf9619e7</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:51:40</sys_updated_on>
+    </sn_cmp_rb_op_impl>
+</record_update>

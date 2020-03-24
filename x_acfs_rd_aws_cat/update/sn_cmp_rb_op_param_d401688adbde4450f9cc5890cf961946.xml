@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="INSERT_OR_UPDATE">
+        <interface display_value="AWS EC2 Microsoft Windows Server 2016 Base Resource Interface">6bf0288adbde4450f9cc5890cf96195d</interface>
+        <name>LeaseEndDate</name>
+        <operation display_value="Provision">a7f0288adbde4450f9cc5890cf9619ca</operation>
+        <order>80</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:51:46</sys_created_on>
+        <sys_id>d401688adbde4450f9cc5890cf961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LeaseEndDate</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_d401688adbde4450f9cc5890cf961946</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:51:46</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+</record_update>

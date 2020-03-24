@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface>
+        <name>ScheduleProfile</name>
+        <operation display_value="Provision">70a9600edb128450f9cc5890cf9619c3</operation>
+        <order>60</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:32</sys_created_on>
+        <sys_id>eda9a00edb128450f9cc5890cf961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScheduleProfile</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_eda9a00edb128450f9cc5890cf961969</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:32</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_param_eda9a00edb128450f9cc5890cf961969</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface><name>ScheduleProfile</name><operation display_value="Provision">70a9600edb128450f9cc5890cf9619c3</operation><order>60</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:32</sys_created_on><sys_id>eda9a00edb128450f9cc5890cf961969</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScheduleProfile</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_param_eda9a00edb128450f9cc5890cf961969</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:32</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>1422243707</payload_hash>
+        <record_name>ScheduleProfile</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:44</sys_created_on>
+        <sys_id>c945f9a4dbe20890085bf05e0f961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b4b6db0000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:44</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>25a9a00eb312845004ea7ee82fe2e96b</update_guid>
+        <update_guid_history>25a9a00eb312845004ea7ee82fe2e96b:1422243707,4cd2796c8ba208903d449a6f3786fb35:-445214659,25a9a00eb312845004ea7ee82fe2e96b:1422243707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fc595b55dbbe8814085bf05e0f96197e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:02</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>00bd87090f1d49a880dd065b3f759511</sys_id>
+        <sys_metadata>eda9a00edb128450f9cc5890cf961969</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScheduleProfile</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_eda9a00edb128450f9cc5890cf961969</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_eda9a00edb128450f9cc5890cf961969">c945f9a4dbe20890085bf05e0f961920</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

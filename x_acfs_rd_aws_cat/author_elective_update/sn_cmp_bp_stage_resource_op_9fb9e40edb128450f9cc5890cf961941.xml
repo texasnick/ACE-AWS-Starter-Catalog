@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op">
+    <sn_cmp_bp_stage_resource_op action="DELETE">
+        <alias_name>Blueprint Container Resource.Start</alias_name>
+        <bp_stage_operation display_value="Start">11b9640edb128450f9cc5890cf961977</bp_stage_operation>
+        <bp_stage_resource display_value="Blueprint Container Resource">99b9640edb128450f9cc5890cf961980</bp_stage_resource>
+        <condition_text/>
+        <operation_order>200</operation_order>
+        <parent_id/>
+        <rb_operation_impl display_value="Start">90b9240edb128450f9cc5890cf961961</rb_operation_impl>
+        <resource_block display_value="Azure VM RedHat 7 Blueprint Resource">a8a9600edb128450f9cc5890cf9619bb</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:56</sys_created_on>
+        <sys_id>9fb9e40edb128450f9cc5890cf961941</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Blueprint Container Resource.Start</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_9fb9e40edb128450f9cc5890cf961941</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:56</sys_updated_on>
+        <type/>
+        <unique_id>3956</unique_id>
+    </sn_cmp_bp_stage_resource_op>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_stage_resource_op_9fb9e40edb128450f9cc5890cf961941</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op"><sn_cmp_bp_stage_resource_op action="INSERT_OR_UPDATE"><alias_name>Blueprint Container Resource.Start</alias_name><bp_stage_operation display_value="Start">11b9640edb128450f9cc5890cf961977</bp_stage_operation><bp_stage_resource display_value="Blueprint Container Resource">99b9640edb128450f9cc5890cf961980</bp_stage_resource><condition_text/><operation_order>200</operation_order><parent_id/><rb_operation_impl display_value="Start">90b9240edb128450f9cc5890cf961961</rb_operation_impl><resource_block display_value="Azure VM RedHat 7 Blueprint Resource">a8a9600edb128450f9cc5890cf9619bb</resource_block><sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:56</sys_created_on><sys_id>9fb9e40edb128450f9cc5890cf961941</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Blueprint Container Resource.Start</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_stage_resource_op_9fb9e40edb128450f9cc5890cf961941</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:56</sys_updated_on><type/><unique_id>3956</unique_id></sn_cmp_bp_stage_resource_op></record_update>]]></payload>
+        <payload_hash>1045073049</payload_hash>
+        <record_name>Blueprint Container Resource.Start</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:23:26</sys_created_on>
+        <sys_id>4af4b564dbe20890085bf05e0f9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b3864a0000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:23:26</sys_updated_on>
+        <type>Operation</type>
+        <update_guid>1fb9e40e8512845004dd11ba76ef5842</update_guid>
+        <update_guid_history>1fb9e40e8512845004dd11ba76ef5842:1045073049,4972352cc5a2089026e802e23f52b84c:88659919,1fb9e40e8512845004dd11ba76ef5842:1045073049</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4b499755dbbe8814085bf05e0f9619f4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:55</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_stage_resource_op">sn_cmp_bp_stage_resource_op</sys_db_object>
+        <sys_id>1091f60271dd4be0812e278fd702fa49</sys_id>
+        <sys_metadata>9fb9e40edb128450f9cc5890cf961941</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Blueprint Container Resource.Start</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_9fb9e40edb128450f9cc5890cf961941</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_stage_resource_op_9fb9e40edb128450f9cc5890cf961941">4af4b564dbe20890085bf05e0f9619fc</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

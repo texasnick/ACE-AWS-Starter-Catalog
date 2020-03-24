@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_stage_model">
+    <sn_cmp_bp_stage_model action="INSERT_OR_UPDATE">
+        <blueprint display_value="AWS Create S3 Bucket">1ef25cb0dbf64414085bf05e0f96191c</blueprint>
+        <blueprint_template/>
+        <intent>ServiceNowCloudTemplate:
+  name: AWS Create S3 Bucket
+  layer: Application
+  status: Draft
+  category: Compute
+  deploymentModel:
+    resources:
+    - resource: AWS Create S3 Bucket
+      resourceblock: ServiceNow::AWS Create S3 Bucket
+      host: AWS Datacenter
+    - resource: AWS Datacenter
+      resourceblock: ServiceNow::AWS Datacenter</intent>
+        <stage display_value="Default">a74383b20b2222003ad5c73ef6673a1d</stage>
+        <sys_class_name>sn_cmp_bp_stage_model</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 13:09:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b00310f0dbf64414085bf05e0f9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_model_b00310f0dbf64414085bf05e0f9619e4</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 13:09:38</sys_updated_on>
+    </sn_cmp_bp_stage_model>
+</record_update>

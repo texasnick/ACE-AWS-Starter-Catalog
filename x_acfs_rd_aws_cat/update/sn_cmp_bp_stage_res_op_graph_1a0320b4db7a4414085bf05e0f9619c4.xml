@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Deprovision">5d03ec74db7a4414085bf05e0f9619ae</blueprint_stage_op>
+        <child_operation display_value="AWS Ubuntu Server 16 LTS.Deprovision">9a0320b4db7a4414085bf05e0f9619da</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="Blueprint Container Resource.Deprovision">de0320b4db7a4414085bf05e0f9619c1</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:38</sys_created_on>
+        <sys_id>1a0320b4db7a4414085bf05e0f9619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_1a0320b4db7a4414085bf05e0f9619c4</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:38</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

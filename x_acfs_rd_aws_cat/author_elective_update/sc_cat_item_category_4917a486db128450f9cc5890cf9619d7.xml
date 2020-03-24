@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="ModifyLease">e017a486db128450f9cc5890cf961932</sc_cat_item>
+        <sc_category display_value="Compute">86d85478678232005ca552e457415a79</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:19</sys_created_on>
+        <sys_id>4917a486db128450f9cc5890cf9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.ModifyLease</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sc_cat_item_category_4917a486db128450f9cc5890cf9619d7</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:19</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sc_cat_item_category_4917a486db128450f9cc5890cf9619d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="ModifyLease">e017a486db128450f9cc5890cf961932</sc_cat_item><sc_category display_value="Compute">86d85478678232005ca552e457415a79</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:19</sys_created_on><sys_id>4917a486db128450f9cc5890cf9619d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compute.ModifyLease</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sc_cat_item_category_4917a486db128450f9cc5890cf9619d7</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:19</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1824328150</payload_hash>
+        <record_name>Compute.ModifyLease</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:19</sys_created_on>
+        <sys_id>0117a486db128450f9cc5890cf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7bf8720000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:19</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>4917a4865e1284500309591b0fa6ced9</update_guid>
+        <update_guid_history>4917a4865e1284500309591b0fa6ced9:-1824328150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ca28ec0adb128450f9cc5890cf961999</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>376a870dd78940508e11c24fb41a4c90</sys_id>
+        <sys_metadata>4917a486db128450f9cc5890cf9619d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.ModifyLease</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent display_value="">e017a486db128450f9cc5890cf961932</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_4917a486db128450f9cc5890cf9619d7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_4917a486db128450f9cc5890cf9619d7">0117a486db128450f9cc5890cf9619da</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

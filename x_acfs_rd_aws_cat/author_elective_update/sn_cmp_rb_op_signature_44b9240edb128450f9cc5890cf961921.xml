@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="DELETE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface>
+        <name>Stop</name>
+        <operation_type display_value="STOP">9be608ea0b7032009e620bcb15673a05</operation_type>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:43</sys_created_on>
+        <sys_id>44b9240edb128450f9cc5890cf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stop</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_44b9240edb128450f9cc5890cf961921</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:43</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_signature_44b9240edb128450f9cc5890cf961921</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature"><sn_cmp_rb_op_signature action="INSERT_OR_UPDATE"><access_type>2</access_type><applicable_to/><interface display_value="Azure VM RedHat 7 Resource Interface">2ca9600edb128450f9cc5890cf9619b9</interface><name>Stop</name><operation_type display_value="STOP">9be608ea0b7032009e620bcb15673a05</operation_type><sys_class_name>sn_cmp_rb_op_signature</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:43</sys_created_on><sys_id>44b9240edb128450f9cc5890cf961921</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stop</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_signature_44b9240edb128450f9cc5890cf961921</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:43</sys_updated_on></sn_cmp_rb_op_signature></record_update>]]></payload>
+        <payload_hash>-1241084576</payload_hash>
+        <record_name>Stop</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:46</sys_created_on>
+        <sys_id>3945f9a4dbe20890085bf05e0f9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b4c1650000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:46</sys_updated_on>
+        <type>OperationSignature</type>
+        <update_guid>4cb9240e59128450e2be028f9f0dfb22</update_guid>
+        <update_guid_history>4cb9240e59128450e2be028f9f0dfb22:-1241084576,ddc2756c4ca20890a866124ee029afaa:-548779358,4cb9240e59128450e2be028f9f0dfb22:-1241084576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fa499755dbbe8814085bf05e0f96198c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:54</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_signature">sn_cmp_rb_op_signature</sys_db_object>
+        <sys_id>1d8f7ba23b85469fa350de61c06e05c1</sys_id>
+        <sys_metadata>44b9240edb128450f9cc5890cf961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stop</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_signature_44b9240edb128450f9cc5890cf961921</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_signature_44b9240edb128450f9cc5890cf961921">3945f9a4dbe20890085bf05e0f9619f5</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

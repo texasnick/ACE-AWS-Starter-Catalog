@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>40</order>
+        <question display_value="InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 20:24:49</sys_created_on>
+        <sys_id>69705ec5db5acc10f9cc5890cf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>t2.medium</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>question_choice_69705ec5db5acc10f9cc5890cf9619e3</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 20:24:49</sys_updated_on>
+        <text>t2.medium</text>
+        <value>t2.medium</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=69705ec5db5acc10f9cc5890cf9619e3"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>69705ec5db5acc10f9cc5890cf9619e3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 20:24:49</sys_created_on>
+        <sys_id>a9705ec5db5acc10f9cc5890cf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 20:24:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>69705ec5db5acc10f9cc5890cf9619e3</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 20:24:49</sys_created_on>
+        <sys_id>61705ec5db5acc10f9cc5890cf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 20:24:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>question_choice_69705ec5db5acc10f9cc5890cf9619e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>40</order><question display_value="InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 20:24:49</sys_created_on><sys_id>69705ec5db5acc10f9cc5890cf9619e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>t2.medium</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>question_choice_69705ec5db5acc10f9cc5890cf9619e3</sys_update_name><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 20:24:49</sys_updated_on><text>t2.medium</text><value>t2.medium</value></question_choice><fx_price action="delete_multiple" query="id=69705ec5db5acc10f9cc5890cf9619e3"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>69705ec5db5acc10f9cc5890cf9619e3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 20:24:49</sys_created_on><sys_id>a9705ec5db5acc10f9cc5890cf9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 20:24:49</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>69705ec5db5acc10f9cc5890cf9619e3</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-01-10 20:24:49</sys_created_on><sys_id>61705ec5db5acc10f9cc5890cf9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-01-10 20:24:49</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>125022097</payload_hash>
+        <record_name>t2.medium</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 20:24:49</sys_created_on>
+        <sys_id>65705ec5db5acc10f9cc5890cf9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f912180980000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 20:24:49</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>ad705ec5c05acc104956816a847498e5</update_guid>
+        <update_guid_history>ad705ec5c05acc104956816a847498e5:125022097</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7c131c4edb5e4450f9cc5890cf961942</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-13 13:50:54</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>93d127f72afe4f738206e231866a9289</sys_id>
+        <sys_metadata>69705ec5db5acc10f9cc5890cf9619e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>t2.medium</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent display_value="InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>question_choice_69705ec5db5acc10f9cc5890cf9619e3</sys_update_name>
+        <sys_update_version display_value="question_choice_69705ec5db5acc10f9cc5890cf9619e3">65705ec5db5acc10f9cc5890cf9619e6</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-13 13:50:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

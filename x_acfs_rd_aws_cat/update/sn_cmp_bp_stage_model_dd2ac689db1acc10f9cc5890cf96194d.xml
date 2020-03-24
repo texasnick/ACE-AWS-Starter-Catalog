@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_stage_model">
+    <sn_cmp_bp_stage_model action="INSERT_OR_UPDATE">
+        <blueprint/>
+        <blueprint_template/>
+        <intent>ServiceNowCloudTemplate:
+  name: Standard EC2 Instance
+  layer: Application
+  status: Draft
+  category: Compute
+  deploymentModel:
+    resources:
+    - resource: Standard EC2 Instance
+      resourceblock: ServiceNow::Standard EC2 Instance
+      host: AWS Datacenter
+    - resource: AWS Datacenter
+      resourceblock: ServiceNow::AWS Datacenter</intent>
+        <stage/>
+        <sys_class_name>sn_cmp_bp_stage_model</sys_class_name>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:23:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd2ac689db1acc10f9cc5890cf96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_model_dd2ac689db1acc10f9cc5890cf96194d</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:14</sys_updated_on>
+    </sn_cmp_bp_stage_model>
+</record_update>

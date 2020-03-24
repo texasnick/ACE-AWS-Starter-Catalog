@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="DELETE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue/>
+        <defaultvalue>${parameter.templateParameters}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>templateParameters</name>
+        <op_param/>
+        <operation display_value="Provision">b5f2e874db7a4414085bf05e0f961949</operation>
+        <order>1</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step display_value="Stack Orchestration Interface.Create Stack">b5f2e874db7a4414085bf05e0f96195a</step>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:20</sys_created_on>
+        <sys_id>b5f2e874db7a4414085bf05e0f96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>templateParameters</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_b5f2e874db7a4414085bf05e0f96197c</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:20</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_param_b5f2e874db7a4414085bf05e0f96197c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param"><sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE"><applicable_to/><datasource>1</datasource><datasourcevalue/><defaultvalue>${parameter.templateParameters}</defaultvalue><error_text/><help_text/><host/><ismandatory>false</ismandatory><name>templateParameters</name><op_param/><operation display_value="Provision">b5f2e874db7a4414085bf05e0f961949</operation><order>1</order><read_only>false</read_only><regex/><step display_value="Stack Orchestration Interface.Create Stack">b5f2e874db7a4414085bf05e0f96195a</step><sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name><sys_created_by>tom.blevins</sys_created_by><sys_created_on>2020-02-03 14:19:20</sys_created_on><sys_id>b5f2e874db7a4414085bf05e0f96197c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>templateParameters</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_param_b5f2e874db7a4414085bf05e0f96197c</sys_update_name><sys_updated_by>tom.blevins</sys_updated_by><sys_updated_on>2020-02-03 14:19:20</sys_updated_on><ui_data_type/><value/><visibilty>false</visibilty></sn_cmp_rb_op_impl_param></record_update>]]></payload>
+        <payload_hash>-1843394428</payload_hash>
+        <record_name>templateParameters</record_name>
+        <reverted_from/>
+        <source>608b256cdbba0814f9cc5890cf961970</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:20</sys_created_on>
+        <sys_id>3df2e874db7a4414085bf05e0f961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1700b6b842b0000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:20</sys_updated_on>
+        <type>Operation Parameter</type>
+        <update_guid>f1f2e874d27a4414b5cea03861d44e83</update_guid>
+        <update_guid_history>f1f2e874d27a4414b5cea03861d44e83:-1843394428,bdf2e8749f7a4414a269a0aa60dc5281:-1581358576,7df2e874d67a4414620b7dfa2cc45480:-1843394428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">96f2e874db7a4414085bf05e0f9619df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:21</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_param">sn_cmp_rb_op_impl_param</sys_db_object>
+        <sys_id>0bc7ab4562da40b4ba1e51a7b893b010</sys_id>
+        <sys_metadata>b5f2e874db7a4414085bf05e0f96197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>templateParameters</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_param_b5f2e874db7a4414085bf05e0f96197c</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_param_b5f2e874db7a4414085bf05e0f96197c">3df2e874db7a4414085bf05e0f961983</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="Start">8aff94fcdb3a4414085bf05e0f961923</blueprint_stage_op>
+        <child_operation display_value="Blueprint Container Resource.Start">5fffd4fcdb3a4414085bf05e0f961985</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="AWS Red Hat Enterprise Linux 7.Start">d7ffd4fcdb3a4414085bf05e0f96197b</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:06:19</sys_created_on>
+        <sys_id>53ffd4fcdb3a4414085bf05e0f96197e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_53ffd4fcdb3a4414085bf05e0f96197e</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:06:19</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

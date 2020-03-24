@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="DELETE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface>
+        <name>Cleanup</name>
+        <operation_type display_value="RECONFIGURE">333788ea0b7032009e620bcb15673ac9</operation_type>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:35</sys_created_on>
+        <sys_id>9ee6ac46db128450f9cc5890cf961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanup</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_9ee6ac46db128450f9cc5890cf961945</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:35</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_signature_9ee6ac46db128450f9cc5890cf961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature"><sn_cmp_rb_op_signature action="INSERT_OR_UPDATE"><access_type>2</access_type><applicable_to/><interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface><name>Cleanup</name><operation_type display_value="RECONFIGURE">333788ea0b7032009e620bcb15673ac9</operation_type><sys_class_name>sn_cmp_rb_op_signature</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:17:35</sys_created_on><sys_id>9ee6ac46db128450f9cc5890cf961945</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cleanup</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_signature_9ee6ac46db128450f9cc5890cf961945</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:17:35</sys_updated_on></sn_cmp_rb_op_signature></record_update>]]></payload>
+        <payload_hash>1663195813</payload_hash>
+        <record_name>Cleanup</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:35</sys_created_on>
+        <sys_id>2ee6ac46db128450f9cc5890cf961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7b4d980000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:35</sys_updated_on>
+        <type>OperationSignature</type>
+        <update_guid>66e6ac46cf128450674d111e3cc70047</update_guid>
+        <update_guid_history>66e6ac46cf128450674d111e3cc70047:1663195813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2e48e44adb128450f9cc5890cf961975</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:36</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_signature">sn_cmp_rb_op_signature</sys_db_object>
+        <sys_id>859931da148140e19d54bd4bce2cb4e9</sys_id>
+        <sys_metadata>9ee6ac46db128450f9cc5890cf961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cleanup</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_signature_9ee6ac46db128450f9cc5890cf961945</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_signature_9ee6ac46db128450f9cc5890cf961945">2ee6ac46db128450f9cc5890cf961947</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

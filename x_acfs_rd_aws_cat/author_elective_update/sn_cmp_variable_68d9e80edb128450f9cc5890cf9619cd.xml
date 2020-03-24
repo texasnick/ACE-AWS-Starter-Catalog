@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <sn_cmp_variable action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <bp_cat_item display_value="">aa686c4adb128450f9cc5890cf9619e8</bp_cat_item>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <cmp_variable_set display_value="">b2c9a80edb128450f9cc5890cf9619bb</cmp_variable_set>
+        <create_roles/>
+        <default_html_value/>
+        <default_value>[resourceGroup().location]</default_value>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <error_text/>
+        <example_text/>
+        <field/>
+        <filter/>
+        <global>false</global>
+        <global_prop display_value="Azure_VM_RedHat_7_template_location">fdb9640edb128450f9cc5890cf9619ec</global_prop>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label>name</lookup_label>
+        <lookup_price/>
+        <lookup_table>cmdb_ci_azure_datacenter</lookup_table>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value>region</lookup_value>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>Azure_VM_RedHat_7_template_location</name>
+        <order>4</order>
+        <pool/>
+        <pool_filter/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Region</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <regex/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <stage_resource_operation display_value="Azure VM RedHat 7.Provision">e1b9640edb128450f9cc5890cf96199f</stage_resource_operation>
+        <summary_macro/>
+        <sys_class_name>sn_cmp_variable</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:17</sys_created_on>
+        <sys_id>68d9e80edb128450f9cc5890cf9619cd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Region</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_variable_68d9e80edb128450f9cc5890cf9619cd</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:41:51</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>18</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_pool_filter>false</use_pool_filter>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible>true</visible>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </sn_cmp_variable>
+    <sys_translated_text action="DELETE" query="documentkey=68d9e80edb128450f9cc5890cf9619cd"/>
+    <fx_price action="DELETE" query="id=68d9e80edb128450f9cc5890cf9619cd"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>68d9e80edb128450f9cc5890cf9619cd</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:17</sys_created_on>
+        <sys_id>e8d9e80edb128450f9cc5890cf9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:17</sys_updated_on>
+        <table>sn_cmp_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>68d9e80edb128450f9cc5890cf9619cd</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:17</sys_created_on>
+        <sys_id>a0d9e80edb128450f9cc5890cf9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:17</sys_updated_on>
+        <table>sn_cmp_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_variable_68d9e80edb128450f9cc5890cf9619cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><sn_cmp_variable action="INSERT_OR_UPDATE"><active>true</active><attributes/><bp_cat_item display_value="">aa686c4adb128450f9cc5890cf9619e8</bp_cat_item><cat_item/><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><cmp_variable_set display_value="">b2c9a80edb128450f9cc5890cf9619bb</cmp_variable_set><create_roles/><default_html_value/><default_value>[resourceGroup().location]</default_value><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><error_text/><example_text/><field/><filter/><global>false</global><global_prop display_value="Azure_VM_RedHat_7_template_location">fdb9640edb128450f9cc5890cf9619ec</global_prop><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label>name</lookup_label><lookup_price/><lookup_table>cmdb_ci_azure_datacenter</lookup_table><lookup_unique>false</lookup_unique><lookup_value>region</lookup_value><macro/><mandatory>true</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>Azure_VM_RedHat_7_template_location</name><order>4</order><pool/><pool_filter/><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Region</question_text><read_only>false</read_only><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><regex/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><stage_resource_operation display_value="Azure VM RedHat 7.Provision">e1b9640edb128450f9cc5890cf96199f</stage_resource_operation><summary_macro/><sys_class_name>sn_cmp_variable</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:30:17</sys_created_on><sys_id>68d9e80edb128450f9cc5890cf9619cd</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Region</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_variable_68d9e80edb128450f9cc5890cf9619cd</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:41:51</sys_updated_on><table/><tooltip/><type>18</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_pool_filter>false</use_pool_filter><use_reference_qualifier>advanced</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible>true</visible><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></sn_cmp_variable><sys_translated_text action="delete_multiple" query="documentkey=68d9e80edb128450f9cc5890cf9619cd"/><fx_price action="delete_multiple" query="id=68d9e80edb128450f9cc5890cf9619cd"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>68d9e80edb128450f9cc5890cf9619cd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:30:17</sys_created_on><sys_id>e8d9e80edb128450f9cc5890cf9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:30:17</sys_updated_on><table>sn_cmp_variable</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>68d9e80edb128450f9cc5890cf9619cd</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:30:17</sys_created_on><sys_id>a0d9e80edb128450f9cc5890cf9619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:30:17</sys_updated_on><table>sn_cmp_variable</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>561765861</payload_hash>
+        <record_name>Region</record_name>
+        <reverted_from/>
+        <source>608b256cdbba0814f9cc5890cf961970</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:47</sys_created_on>
+        <sys_id>95491755dbbe8814085bf05e0f961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1701644b8870000001</sys_recorded_at>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:47</sys_updated_on>
+        <type>Cloud Variable</type>
+        <update_guid>d14917554ebe881445e748bbbcf44281</update_guid>
+        <update_guid_history>d14917554ebe881445e748bbbcf44281:0,827c6c423d528450cd86377982f32dd7:1880277252,c133bdac5ba208903bac1d440862d7a5:-914815788,827c6c423d528450cd86377982f32dd7:1880277252,de3c64422a528450e1e4c8e26a9cf89f:731995929,ab0c204264528450bf5ea25ded0e59a8:-2064895471,2cd9e80ea21284501af7c879c1a368e3:-1772897998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d5491755dbbe8814085bf05e0f961990</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:47</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_variable">sn_cmp_variable</sys_db_object>
+        <sys_id>665591a2562443b8b766a2900b880f90</sys_id>
+        <sys_metadata>68d9e80edb128450f9cc5890cf9619cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Region</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_variable_68d9e80edb128450f9cc5890cf9619cd</sys_update_name>
+        <sys_update_version display_value="sn_cmp_variable_68d9e80edb128450f9cc5890cf9619cd">95491755dbbe8814085bf05e0f961981</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

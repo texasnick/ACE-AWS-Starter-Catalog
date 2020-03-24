@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="DELETE">
+        <applicable_to/>
+        <datasource>1</datasource>
+        <datasourcevalue>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</datasourcevalue>
+        <defaultvalue>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>StackID</name>
+        <op_param display_value="StackID">0ca9600edb128450f9cc5890cf961944</op_param>
+        <operation display_value="Start">40a9600edb128450f9cc5890cf961916</operation>
+        <order>1</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step display_value="Stack Orchestration Interface.Start Stack">84a9600edb128450f9cc5890cf961941</step>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:27</sys_created_on>
+        <sys_id>8ca9600edb128450f9cc5890cf961943</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_8ca9600edb128450f9cc5890cf961943</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:27</sys_updated_on>
+        <ui_data_type/>
+        <value>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</value>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_param_8ca9600edb128450f9cc5890cf961943</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param"><sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE"><applicable_to/><datasource>1</datasource><datasourcevalue>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</datasourcevalue><defaultvalue>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</defaultvalue><error_text/><help_text/><host/><ismandatory>false</ismandatory><name>StackID</name><op_param display_value="StackID">0ca9600edb128450f9cc5890cf961944</op_param><operation display_value="Start">40a9600edb128450f9cc5890cf961916</operation><order>1</order><read_only>false</read_only><regex/><step display_value="Stack Orchestration Interface.Start Stack">84a9600edb128450f9cc5890cf961941</step><sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:27</sys_created_on><sys_id>8ca9600edb128450f9cc5890cf961943</sys_id><sys_mod_count>2</sys_mod_count><sys_name>StackID</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_param_8ca9600edb128450f9cc5890cf961943</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:27</sys_updated_on><ui_data_type/><value>${Stack.items[Azure VM RedHat 7].attributes[object_id]}</value><visibilty>false</visibilty></sn_cmp_rb_op_impl_param></record_update>]]></payload>
+        <payload_hash>1424609977</payload_hash>
+        <record_name>StackID</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:07</sys_created_on>
+        <sys_id>c02531a4dbe20890085bf05e0f9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b426650000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:07</sys_updated_on>
+        <type>Operation Parameter</type>
+        <update_guid>58a9600e3a128450eb4dd78acaef9f50</update_guid>
+        <update_guid_history>58a9600e3a128450eb4dd78acaef9f50:1424609977,a4527de8f5a208907d1c1999d7af0104:-915092691,58a9600e3a128450eb4dd78acaef9f50:1424609977,48a9600e9c1284507571574d608b1b4a:-436200839,44a9600e521284509d70f54d5e0d0449:787684368,04a9600e5f1284508500548725217e48:-436200839</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">22591f55dbbe8814085bf05e0f9619fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:08</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_param">sn_cmp_rb_op_impl_param</sys_db_object>
+        <sys_id>663471a3bde147d08173b04b77251900</sys_id>
+        <sys_metadata>8ca9600edb128450f9cc5890cf961943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_param_8ca9600edb128450f9cc5890cf961943</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_param_8ca9600edb128450f9cc5890cf961943">c02531a4dbe20890085bf05e0f9619de</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

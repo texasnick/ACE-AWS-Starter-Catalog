@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_blueprint">
+    <sn_cmp_bp_blueprint action="INSERT_OR_UPDATE">
+        <category display_value="Compute">57c0dbd9934b22004a9032bfa67ffb79</category>
+        <cloud_service/>
+        <description/>
+        <layer>1</layer>
+        <name>AWS Red Hat Enterprise Linux 7</name>
+        <sm_checkpoint_id/>
+        <source_sm_checkpoint_id/>
+        <status>2</status>
+        <svc_layer display_value="">7fefd0fcdb3a4414085bf05e0f96194f</svc_layer>
+        <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:06:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37efd0fcdb3a4414085bf05e0f96194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AWS Red Hat Enterprise Linux 7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_blueprint_37efd0fcdb3a4414085bf05e0f96194e</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:06:23</sys_updated_on>
+        <template_id display_value="AWS Red Hat Enterprise Linux 7">648fd0bcdb3a4414085bf05e0f9619e4</template_id>
+        <tlr display_value="AWS Red Hat Enterprise Linux 7 Blueprint Resource">b7efd0fcdb3a4414085bf05e0f961967</tlr>
+    </sn_cmp_bp_blueprint>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action">
+    <sn_cmp_bp_action action="DELETE">
+        <action_type>6</action_type>
+        <datasource/>
+        <name>TriggerChangeEvent UserGroup</name>
+        <order>10</order>
+        <rule display_value="TriggerChangeEvent UserGroup">2f076486db128450f9cc5890cf9619a0</rule>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_action</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:13</sys_created_on>
+        <sys_id>a7076486db128450f9cc5890cf9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerChangeEvent UserGroup</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_action_a7076486db128450f9cc5890cf9619a2</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:13</sys_updated_on>
+        <target_attr display_value="UserGroup">0607e086db128450f9cc5890cf9619fa</target_attr>
+        <target_attribute>UserGroup</target_attribute>
+        <target_attribute_select/>
+        <value/>
+    </sn_cmp_bp_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_action_a7076486db128450f9cc5890cf9619a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_action"><sn_cmp_bp_action action="INSERT_OR_UPDATE"><action_type>6</action_type><datasource/><name>TriggerChangeEvent UserGroup</name><order>10</order><rule display_value="TriggerChangeEvent UserGroup">2f076486db128450f9cc5890cf9619a0</rule><status>1</status><sys_class_name>sn_cmp_bp_action</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:13</sys_created_on><sys_id>a7076486db128450f9cc5890cf9619a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TriggerChangeEvent UserGroup</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_action_a7076486db128450f9cc5890cf9619a2</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:13</sys_updated_on><target_attr display_value="UserGroup">0607e086db128450f9cc5890cf9619fa</target_attr><target_attribute>UserGroup</target_attribute><target_attribute_select/><value/></sn_cmp_bp_action></record_update>]]></payload>
+        <payload_hash>427921887</payload_hash>
+        <record_name>TriggerChangeEvent UserGroup</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:13</sys_created_on>
+        <sys_id>ab076486db128450f9cc5890cf9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7be1560000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:13</sys_updated_on>
+        <type>Action</type>
+        <update_guid>e307648636128450aa445eb00d6c2ba3</update_guid>
+        <update_guid_history>e307648636128450aa445eb00d6c2ba3:427921887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bbf7a40adb128450f9cc5890cf96193e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:22:20</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_action">sn_cmp_bp_action</sys_db_object>
+        <sys_id>0524f2d2685041d48dbcb991825bbfe4</sys_id>
+        <sys_metadata>a7076486db128450f9cc5890cf9619a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerChangeEvent UserGroup</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_action_a7076486db128450f9cc5890cf9619a2</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_action_a7076486db128450f9cc5890cf9619a2">ab076486db128450f9cc5890cf9619a3</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:22:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

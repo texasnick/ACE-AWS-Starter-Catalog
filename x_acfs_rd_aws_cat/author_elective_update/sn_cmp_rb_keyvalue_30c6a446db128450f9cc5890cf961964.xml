@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_keyvalue">
+    <sn_cmp_rb_keyvalue action="DELETE">
+        <action/>
+        <key>StackID</key>
+        <object_mapping>false</object_mapping>
+        <owner_instance/>
+        <owner_table/>
+        <step display_value="Stack Orchestration Interface.Delete Stack">bcc6a446db128450f9cc5890cf961962</step>
+        <sys_class_name>sn_cmp_rb_keyvalue</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:16:56</sys_created_on>
+        <sys_id>30c6a446db128450f9cc5890cf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_keyvalue_30c6a446db128450f9cc5890cf961964</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:16:56</sys_updated_on>
+        <value>${parameter.StackID}</value>
+    </sn_cmp_rb_keyvalue>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_keyvalue_30c6a446db128450f9cc5890cf961964</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_keyvalue"><sn_cmp_rb_keyvalue action="INSERT_OR_UPDATE"><action/><key>StackID</key><object_mapping>false</object_mapping><owner_instance/><owner_table/><step display_value="Stack Orchestration Interface.Delete Stack">bcc6a446db128450f9cc5890cf961962</step><sys_class_name>sn_cmp_rb_keyvalue</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:16:56</sys_created_on><sys_id>30c6a446db128450f9cc5890cf961964</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StackID</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_keyvalue_30c6a446db128450f9cc5890cf961964</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:16:56</sys_updated_on><value>${parameter.StackID}</value></sn_cmp_rb_keyvalue></record_update>]]></payload>
+        <payload_hash>70426804</payload_hash>
+        <record_name>StackID</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:16:56</sys_created_on>
+        <sys_id>38c6a446db128450f9cc5890cf961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7ab5000000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:16:56</sys_updated_on>
+        <type>Key Value</type>
+        <update_guid>70c6a446791284500548b0f895a21665</update_guid>
+        <update_guid_history>70c6a446791284500548b0f895a21665:70426804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4158684adb128450f9cc5890cf9619ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:46</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_keyvalue">sn_cmp_rb_keyvalue</sys_db_object>
+        <sys_id>004dea9c556a403480028785b99b1e90</sys_id>
+        <sys_metadata>30c6a446db128450f9cc5890cf961964</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_keyvalue_30c6a446db128450f9cc5890cf961964</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_keyvalue_30c6a446db128450f9cc5890cf961964">38c6a446db128450f9cc5890cf961965</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

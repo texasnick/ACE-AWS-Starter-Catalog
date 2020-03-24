@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>0</order>
+        <sc_cat_item display_value="Deprovision">66e9604edb128450f9cc5890cf96192e</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:42</sys_created_on>
+        <sys_id>62e9604edb128450f9cc5890cf961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General Info.Deprovision</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>io_set_item_62e9604edb128450f9cc5890cf961943</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:42</sys_updated_on>
+        <variable_set display_value="General Info">2ae9604edb128450f9cc5890cf961942</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>io_set_item_62e9604edb128450f9cc5890cf961943</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>0</order><sc_cat_item display_value="Deprovision">66e9604edb128450f9cc5890cf96192e</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:30:42</sys_created_on><sys_id>62e9604edb128450f9cc5890cf961943</sys_id><sys_mod_count>0</sys_mod_count><sys_name>General Info.Deprovision</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>io_set_item_62e9604edb128450f9cc5890cf961943</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:30:42</sys_updated_on><variable_set display_value="General Info">2ae9604edb128450f9cc5890cf961942</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>2053357788</payload_hash>
+        <record_name>General Info.Deprovision</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:22:29</sys_created_on>
+        <sys_id>08c47924dbe20890085bf05e0f96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b2a7380000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:22:29</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e6e9604e04128450f8681699bdb3f752</update_guid>
+        <update_guid_history>e6e9604e04128450f8681699bdb3f752:2053357788,e8c2756c66a2089015ebeeec3373bc55:-76965578,e6e9604e04128450f8681699bdb3f752:2053357788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e2391355dbbe8814085bf05e0f961981</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:36</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>0c38746e985c4065bd51a6af59e7dff9</sys_id>
+        <sys_metadata>62e9604edb128450f9cc5890cf961943</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>General Info.Deprovision</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>io_set_item_62e9604edb128450f9cc5890cf961943</sys_update_name>
+        <sys_update_version display_value="io_set_item_62e9604edb128450f9cc5890cf961943">08c47924dbe20890085bf05e0f96192c</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

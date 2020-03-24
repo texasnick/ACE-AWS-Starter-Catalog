@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_rule">
+    <sn_cmp_bp_rule action="DELETE">
+        <cat_item display_value="Azure VM RedHat 7">54366406db128450f9cc5890cf96193d</cat_item>
+        <cat_variable display_value="CreateResourceGroup">4507e086db128450f9cc5890cf961920</cat_variable>
+        <description>MakeMandatory ResourceGroup</description>
+        <name>MakeMandatory ResourceGroup</name>
+        <order>180</order>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_rule</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:13</sys_created_on>
+        <sys_id>af076486db128450f9cc5890cf961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MakeMandatory ResourceGroup</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_rule_af076486db128450f9cc5890cf961985</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:13</sys_updated_on>
+    </sn_cmp_bp_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_rule_af076486db128450f9cc5890cf961985</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_rule"><sn_cmp_bp_rule action="INSERT_OR_UPDATE"><cat_item display_value="Azure VM RedHat 7">54366406db128450f9cc5890cf96193d</cat_item><cat_variable display_value="CreateResourceGroup">4507e086db128450f9cc5890cf961920</cat_variable><description>MakeMandatory ResourceGroup</description><name>MakeMandatory ResourceGroup</name><order>180</order><status>1</status><sys_class_name>sn_cmp_bp_rule</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:13</sys_created_on><sys_id>af076486db128450f9cc5890cf961985</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MakeMandatory ResourceGroup</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_rule_af076486db128450f9cc5890cf961985</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:13</sys_updated_on></sn_cmp_bp_rule></record_update>]]></payload>
+        <payload_hash>-1854376553</payload_hash>
+        <record_name>MakeMandatory ResourceGroup</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:13</sys_created_on>
+        <sys_id>a3076486db128450f9cc5890cf961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7bdf740000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:13</sys_updated_on>
+        <type>Rule</type>
+        <update_guid>eb0764861c128450f4fa29e7f4f40386</update_guid>
+        <update_guid_history>eb0764861c128450f4fa29e7f4f40386:-1854376553</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7d08280adb128450f9cc5890cf961902</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:22:27</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_rule">sn_cmp_bp_rule</sys_db_object>
+        <sys_id>082cc47019e84c20aaba03bbb7c5e400</sys_id>
+        <sys_metadata>af076486db128450f9cc5890cf961985</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MakeMandatory ResourceGroup</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_rule_af076486db128450f9cc5890cf961985</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_rule_af076486db128450f9cc5890cf961985">a3076486db128450f9cc5890cf961987</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:22:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

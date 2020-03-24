@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>80</order>
+        <question display_value="InstanceType">d94a4e89db1acc10f9cc5890cf9619d2</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-13 13:51:00</sys_created_on>
+        <sys_id>c6135c4edb5e4450f9cc5890cf96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>t3.nano</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>question_choice_c6135c4edb5e4450f9cc5890cf96198f</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-13 13:51:00</sys_updated_on>
+        <text>t3.nano</text>
+        <value>t3.nano</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c6135c4edb5e4450f9cc5890cf96198f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>c6135c4edb5e4450f9cc5890cf96198f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-13 13:51:00</sys_created_on>
+        <sys_id>0a135c4edb5e4450f9cc5890cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-13 13:51:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>c6135c4edb5e4450f9cc5890cf96198f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-13 13:51:00</sys_created_on>
+        <sys_id>ce135c4edb5e4450f9cc5890cf96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-13 13:51:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

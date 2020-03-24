@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="AWS Ubuntu Server 18 LTS">c02ad0b0db3a4414085bf05e0f961928</sc_cat_item>
+        <sc_category display_value="Compute">8641fe260b212200eff7ef9bb4673a3d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 13:41:57</sys_created_on>
+        <sys_id>966a5cb0db3a4414085bf05e0f9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.AWS Ubuntu Server 18 LTS</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sc_cat_item_category_966a5cb0db3a4414085bf05e0f9619ed</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 13:41:57</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>2000</order>
+        <sc_cat_item display_value="Start">cce9ac0edb128450f9cc5890cf96199c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:30:33</sys_created_on>
+        <sys_id>1ce9ec0edb128450f9cc5890cf96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lifecycle Operation Parameters.Start</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>io_set_item_1ce9ec0edb128450f9cc5890cf96191e</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:30:33</sys_updated_on>
+        <variable_set display_value="Lifecycle Operation Parameters">d0e9ec0edb128450f9cc5890cf96191e</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>io_set_item_1ce9ec0edb128450f9cc5890cf96191e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>2000</order><sc_cat_item display_value="Start">cce9ac0edb128450f9cc5890cf96199c</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:30:33</sys_created_on><sys_id>1ce9ec0edb128450f9cc5890cf96191e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lifecycle Operation Parameters.Start</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>io_set_item_1ce9ec0edb128450f9cc5890cf96191e</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:30:33</sys_updated_on><variable_set display_value="Lifecycle Operation Parameters">d0e9ec0edb128450f9cc5890cf96191e</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>475494828</payload_hash>
+        <record_name>Lifecycle Operation Parameters.Start</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:22:28</sys_created_on>
+        <sys_id>f7b47924dbe20890085bf05e0f961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b2a4220000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:22:28</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e4e9ec0e871284503ffbe0f56faae221</update_guid>
+        <update_guid_history>e4e9ec0e871284503ffbe0f56faae221:475494828,ac92b92cd8a20890e0715148645d20be:-2018922696,e4e9ec0e871284503ffbe0f56faae221:475494828</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2a499755dbbe8814085bf05e0f961909</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:52</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>819199df81ce4b3797e5de9322fde781</sys_id>
+        <sys_metadata>1ce9ec0edb128450f9cc5890cf96191e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lifecycle Operation Parameters.Start</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>io_set_item_1ce9ec0edb128450f9cc5890cf96191e</sys_update_name>
+        <sys_update_version display_value="io_set_item_1ce9ec0edb128450f9cc5890cf96191e">f7b47924dbe20890085bf05e0f961907</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

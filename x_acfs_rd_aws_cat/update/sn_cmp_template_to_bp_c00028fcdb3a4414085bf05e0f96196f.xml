@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_template_to_bp">
+    <sn_cmp_template_to_bp action="INSERT_OR_UPDATE">
+        <blueprint display_value="AWS Red Hat Enterprise Linux 7">37efd0fcdb3a4414085bf05e0f96194e</blueprint>
+        <sys_class_name>sn_cmp_template_to_bp</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:06:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c00028fcdb3a4414085bf05e0f96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_template_to_bp_c00028fcdb3a4414085bf05e0f96196f</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:06:23</sys_updated_on>
+        <template display_value="AWS Red Hat Enterprise Linux 7">648fd0bcdb3a4414085bf05e0f9619e4</template>
+    </sn_cmp_template_to_bp>
+</record_update>

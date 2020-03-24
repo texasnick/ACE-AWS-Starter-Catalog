@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_variable_set">
+    <sn_cmp_variable_set action="DELETE">
+        <bp_cat_item display_value="ModifyLease">e017a486db128450f9cc5890cf961932</bp_cat_item>
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>lifecycle_operation_parameters</internal_name>
+        <layout>2down</layout>
+        <name>Lifecycle Operation Parameters</name>
+        <order>2000</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>sn_cmp_variable_set</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:18</sys_created_on>
+        <sys_id>bc17a486db128450f9cc5890cf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lifecycle Operation Parameters</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_variable_set_bc17a486db128450f9cc5890cf961998</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:18</sys_updated_on>
+        <title>Lifecycle Operation Parameters</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </sn_cmp_variable_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_variable_set_bc17a486db128450f9cc5890cf961998</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_variable_set"><sn_cmp_variable_set action="INSERT_OR_UPDATE"><bp_cat_item display_value="ModifyLease">e017a486db128450f9cc5890cf961932</bp_cat_item><create_roles/><description/><display_title>true</display_title><internal_name>lifecycle_operation_parameters</internal_name><layout>2down</layout><name>Lifecycle Operation Parameters</name><order>2000</order><read_roles/><set_attributes/><sys_class_name>sn_cmp_variable_set</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:18</sys_created_on><sys_id>bc17a486db128450f9cc5890cf961998</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Lifecycle Operation Parameters</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_variable_set_bc17a486db128450f9cc5890cf961998</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:18</sys_updated_on><title>Lifecycle Operation Parameters</title><type>one_to_one</type><write_roles/></sn_cmp_variable_set></record_update>]]></payload>
+        <payload_hash>-445579185</payload_hash>
+        <record_name>Lifecycle Operation Parameters</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:18</sys_created_on>
+        <sys_id>4d17a486db128450f9cc5890cf96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7bf5c10000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:18</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>8517a486e012845015a87b696501219d</update_guid>
+        <update_guid_history>8517a486e012845015a87b696501219d:-445579185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9f28204adb128450f9cc5890cf96197b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:06</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_variable_set">sn_cmp_variable_set</sys_db_object>
+        <sys_id>4d5804b440534feca077d6c580c763e4</sys_id>
+        <sys_metadata>bc17a486db128450f9cc5890cf961998</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lifecycle Operation Parameters</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_variable_set_bc17a486db128450f9cc5890cf961998</sys_update_name>
+        <sys_update_version display_value="sn_cmp_variable_set_bc17a486db128450f9cc5890cf961998">4d17a486db128450f9cc5890cf96199d</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

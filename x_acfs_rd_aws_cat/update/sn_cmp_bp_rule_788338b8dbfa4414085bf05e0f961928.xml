@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_rule">
+    <sn_cmp_bp_rule action="INSERT_OR_UPDATE">
+        <cat_item display_value="AWS VPC with Subnets">7ce2fc38dbfa4414085bf05e0f961927</cat_item>
+        <cat_variable display_value="UserGroup">cc83f4b8dbfa4414085bf05e0f961936</cat_variable>
+        <description>Reload Quota</description>
+        <name>Reload Quota</name>
+        <order>60</order>
+        <status>1</status>
+        <sys_class_name>sn_cmp_bp_rule</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 15:31:37</sys_created_on>
+        <sys_id>788338b8dbfa4414085bf05e0f961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reload Quota</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_rule_788338b8dbfa4414085bf05e0f961928</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 15:31:37</sys_updated_on>
+    </sn_cmp_bp_rule>
+</record_update>

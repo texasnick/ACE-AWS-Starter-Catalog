@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="DELETE">
+        <bp_stage_operation display_value="ModifySchedule">11b9640edb128450f9cc5890cf961972</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="ScheduleTimeZone">17b9e40edb128450f9cc5890cf96192d</bp_stage_res_op_attr>
+        <mandatory>true</mandatory>
+        <name>ScheduleTimeZone</name>
+        <order>90</order>
+        <resource_op_unique_id>6119</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:56</sys_created_on>
+        <sys_id>13b9e40edb128450f9cc5890cf96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScheduleTimeZone</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_13b9e40edb128450f9cc5890cf96192e</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:56</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_bp_global_prop_13b9e40edb128450f9cc5890cf96192e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop"><sn_cmp_bp_global_prop action="INSERT_OR_UPDATE"><bp_stage_operation display_value="ModifySchedule">11b9640edb128450f9cc5890cf961972</bp_stage_operation><bp_stage_res_op_attr display_value="ScheduleTimeZone">17b9e40edb128450f9cc5890cf96192d</bp_stage_res_op_attr><mandatory>true</mandatory><name>ScheduleTimeZone</name><order>90</order><resource_op_unique_id>6119</resource_op_unique_id><sys_class_name>sn_cmp_bp_global_prop</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:56</sys_created_on><sys_id>13b9e40edb128450f9cc5890cf96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScheduleTimeZone</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_bp_global_prop_13b9e40edb128450f9cc5890cf96192e</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:56</sys_updated_on></sn_cmp_bp_global_prop></record_update>]]></payload>
+        <payload_hash>1488745800</payload_hash>
+        <record_name>ScheduleTimeZone</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:23:08</sys_created_on>
+        <sys_id>e1e4f164dbe20890085bf05e0f96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b33fe90000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:23:08</sys_updated_on>
+        <type>Global Property</type>
+        <update_guid>9fb9e40ee6128450bdcd843842b8362e</update_guid>
+        <update_guid_history>9fb9e40ee6128450bdcd843842b8362e:1488745800,e472f12cc3a208905b2699a66c7b57f3:-1849392651,9fb9e40ee6128450bdcd843842b8362e:1488745800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7c595b55dbbe8814085bf05e0f9619c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:02</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_bp_global_prop">sn_cmp_bp_global_prop</sys_db_object>
+        <sys_id>529271925a994b789c11a923d39bd999</sys_id>
+        <sys_metadata>13b9e40edb128450f9cc5890cf96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScheduleTimeZone</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_bp_global_prop_13b9e40edb128450f9cc5890cf96192e</sys_update_name>
+        <sys_update_version display_value="sn_cmp_bp_global_prop_13b9e40edb128450f9cc5890cf96192e">e1e4f164dbe20890085bf05e0f96198a</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

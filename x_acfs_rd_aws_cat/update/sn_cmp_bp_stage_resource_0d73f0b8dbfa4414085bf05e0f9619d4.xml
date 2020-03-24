@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_stage_resource">
+    <sn_cmp_bp_stage_resource action="INSERT_OR_UPDATE">
+        <alias_name>AWS VPC with Subnets1</alias_name>
+        <bp_stage_model display_value="">8973f0b8dbfa4414085bf05e0f96197f</bp_stage_model>
+        <constraint/>
+        <host_ci/>
+        <resource_block display_value="AWS VPC with Subnets1">6863bc78dbfa4414085bf05e0f961910</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 15:31:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d73f0b8dbfa4414085bf05e0f9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS VPC with Subnets1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_0d73f0b8dbfa4414085bf05e0f9619d4</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 15:31:22</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_bp_stage_resource>
+</record_update>

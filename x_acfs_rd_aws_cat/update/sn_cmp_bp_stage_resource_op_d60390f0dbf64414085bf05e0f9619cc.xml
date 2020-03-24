@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op">
+    <sn_cmp_bp_stage_resource_op action="INSERT_OR_UPDATE">
+        <alias_name>AWS Create S3 Bucket.Deprovision</alias_name>
+        <bp_stage_operation display_value="Deprovision">f00310f0dbf64414085bf05e0f9619ff</bp_stage_operation>
+        <bp_stage_resource display_value="AWS Create S3 Bucket">850350f0dbf64414085bf05e0f961915</bp_stage_resource>
+        <condition_text/>
+        <operation_order>200</operation_order>
+        <parent_id/>
+        <rb_operation_impl display_value="Deprovision">8cf2d8b0dbf64414085bf05e0f961924</rb_operation_impl>
+        <resource_block display_value="AWS Create S3 Bucket">77e2d0b0dbf64414085bf05e0f961974</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 13:09:43</sys_created_on>
+        <sys_id>d60390f0dbf64414085bf05e0f9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AWS Create S3 Bucket.Deprovision</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_d60390f0dbf64414085bf05e0f9619cc</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 13:09:43</sys_updated_on>
+        <type/>
+        <unique_id>8193</unique_id>
+    </sn_cmp_bp_stage_resource_op>
+</record_update>

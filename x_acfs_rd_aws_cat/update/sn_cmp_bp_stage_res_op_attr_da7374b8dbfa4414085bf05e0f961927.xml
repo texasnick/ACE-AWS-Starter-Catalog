@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_attr">
+    <sn_cmp_bp_stage_res_op_attr action="INSERT_OR_UPDATE">
+        <default_value>${Stack.items[AWS VPC with Subnets1].attributes[object_id]}</default_value>
+        <name>StackID</name>
+        <rb_operation_attribute display_value="StackID">6e6330b8dbfa4414085bf05e0f961977</rb_operation_attribute>
+        <stage_resource_operation display_value="AWS VPC with Subnets1.Start">967374b8dbfa4414085bf05e0f961922</stage_resource_operation>
+        <sys_class_name>sn_cmp_bp_stage_res_op_attr</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 15:31:27</sys_created_on>
+        <sys_id>da7374b8dbfa4414085bf05e0f961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StackID</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_attr_da7374b8dbfa4414085bf05e0f961927</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 15:31:27</sys_updated_on>
+        <type_of_map>1</type_of_map>
+        <use_in_operation>false</use_in_operation>
+    </sn_cmp_bp_stage_res_op_attr>
+</record_update>

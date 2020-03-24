@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="DELETE">
+        <applicable_to>ddf5cd6bd722220097eb6ccf6e610346</applicable_to>
+        <datasource>2</datasource>
+        <datasourcevalue>ServiceNow::Pools::ResourceGroupPool.getByLDC</datasourcevalue>
+        <defaultvalue>${parameter.ResourceGroup}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>true</ismandatory>
+        <name>ResourceGroup</name>
+        <op_param/>
+        <operation display_value="Provision">70a9600edb128450f9cc5890cf9619d3</operation>
+        <order>110</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step/>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:36</sys_created_on>
+        <sys_id>9ea9a00edb128450f9cc5890cf9619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ResourceGroup</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_9ea9a00edb128450f9cc5890cf9619d2</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:36</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>false</visibilty>
+    </sn_cmp_rb_op_impl_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_param_9ea9a00edb128450f9cc5890cf9619d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param"><sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE"><applicable_to>ddf5cd6bd722220097eb6ccf6e610346</applicable_to><datasource>2</datasource><datasourcevalue>ServiceNow::Pools::ResourceGroupPool.getByLDC</datasourcevalue><defaultvalue>${parameter.ResourceGroup}</defaultvalue><error_text/><help_text/><host/><ismandatory>true</ismandatory><name>ResourceGroup</name><op_param/><operation display_value="Provision">70a9600edb128450f9cc5890cf9619d3</operation><order>110</order><read_only>false</read_only><regex/><step/><sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:36</sys_created_on><sys_id>9ea9a00edb128450f9cc5890cf9619d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ResourceGroup</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_param_9ea9a00edb128450f9cc5890cf9619d2</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:36</sys_updated_on><ui_data_type/><value/><visibilty>false</visibilty></sn_cmp_rb_op_impl_param></record_update>]]></payload>
+        <payload_hash>-1920892927</payload_hash>
+        <record_name>ResourceGroup</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:08</sys_created_on>
+        <sys_id>942571a4dbe20890085bf05e0f96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b42ab60000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:08</sys_updated_on>
+        <type>Operation Parameter</type>
+        <update_guid>9ea9a00edc128450235d0e359a0d18d4</update_guid>
+        <update_guid_history>9ea9a00edc128450235d0e359a0d18d4:-1920892927,96c2b56c65a2089084400bab80f95ee7:1250960458,9ea9a00edc128450235d0e359a0d18d4:-1920892927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fb49d755dbbe8814085bf05e0f9619f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:52:57</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_param">sn_cmp_rb_op_impl_param</sys_db_object>
+        <sys_id>d42ed2f23de94ff486c9ada657345891</sys_id>
+        <sys_metadata>9ea9a00edb128450f9cc5890cf9619d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ResourceGroup</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_param_9ea9a00edb128450f9cc5890cf9619d2</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_param_9ea9a00edb128450f9cc5890cf9619d2">942571a4dbe20890085bf05e0f96195e</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:52:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

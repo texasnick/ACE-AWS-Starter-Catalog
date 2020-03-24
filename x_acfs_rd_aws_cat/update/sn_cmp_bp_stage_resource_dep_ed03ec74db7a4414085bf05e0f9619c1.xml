@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_dep">
+    <sn_cmp_bp_stage_resource_dep action="INSERT_OR_UPDATE">
+        <bp_stage_model display_value="">5d03ec74db7a4414085bf05e0f9619a0</bp_stage_model>
+        <deployment_type>1</deployment_type>
+        <endpoint/>
+        <guest_association_name>AWS Ubuntu Server 16 LTS</guest_association_name>
+        <guest_resource display_value="AWS Ubuntu Server 16 LTS">b0f2a874db7a4414085bf05e0f96191d</guest_resource>
+        <host_association_name>AWS Datacenter</host_association_name>
+        <host_resource display_value="AWS Datacenter">0279b35e0be622009e620bcb15673a2e</host_resource>
+        <sys_class_name>sn_cmp_bp_stage_resource_dep</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:35</sys_created_on>
+        <sys_id>ed03ec74db7a4414085bf05e0f9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_dep_ed03ec74db7a4414085bf05e0f9619c1</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:35</sys_updated_on>
+    </sn_cmp_bp_stage_resource_dep>
+</record_update>

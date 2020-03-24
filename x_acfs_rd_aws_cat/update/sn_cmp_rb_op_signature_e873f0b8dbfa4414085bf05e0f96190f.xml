@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_signature">
+    <sn_cmp_rb_op_signature action="INSERT_OR_UPDATE">
+        <access_type>2</access_type>
+        <applicable_to/>
+        <interface display_value="AWS VPC with Subnets1 Resource Interface">0b6370b8dbfa4414085bf05e0f961917</interface>
+        <name>Deprovision</name>
+        <operation_type display_value="DEPROVISION">e7c648ea0b7032009e620bcb15673a27</operation_type>
+        <sys_class_name>sn_cmp_rb_op_signature</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 15:31:20</sys_created_on>
+        <sys_id>e873f0b8dbfa4414085bf05e0f96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Deprovision</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_signature_e873f0b8dbfa4414085bf05e0f96190f</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 15:31:20</sys_updated_on>
+    </sn_cmp_rb_op_signature>
+</record_update>

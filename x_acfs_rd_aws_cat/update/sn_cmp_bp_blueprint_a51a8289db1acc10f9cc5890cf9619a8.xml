@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmp_bp_blueprint">
+    <sn_cmp_bp_blueprint action="INSERT_OR_UPDATE">
+        <category display_value="Compute">57c0dbd9934b22004a9032bfa67ffb79</category>
+        <cloud_service/>
+        <description/>
+        <layer>1</layer>
+        <name>Standard EC2 Instance</name>
+        <sm_checkpoint_id/>
+        <source_sm_checkpoint_id/>
+        <status>2</status>
+        <svc_layer display_value="">751a8289db1acc10f9cc5890cf9619af</svc_layer>
+        <sys_class_name>sn_cmp_bp_blueprint</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-01-10 19:56:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a51a8289db1acc10f9cc5890cf9619a8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Standard EC2 Instance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_blueprint_a51a8289db1acc10f9cc5890cf9619a8</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-01-10 19:57:39</sys_updated_on>
+        <template_id display_value="Standard EC2 Instance">64c98249db1acc10f9cc5890cf961975</template_id>
+        <tlr display_value="Standard EC2 Instance Blueprint Resource">ca1ac289db1acc10f9cc5890cf961906</tlr>
+    </sn_cmp_bp_blueprint>
+</record_update>

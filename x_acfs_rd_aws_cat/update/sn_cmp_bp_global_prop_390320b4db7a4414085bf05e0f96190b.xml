@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_global_prop">
+    <sn_cmp_bp_global_prop action="INSERT_OR_UPDATE">
+        <bp_stage_operation display_value="Provision">d103ec74db7a4414085bf05e0f9619a4</bp_stage_operation>
+        <bp_stage_res_op_attr display_value="CloudAccount">3d0320b4db7a4414085bf05e0f96190a</bp_stage_res_op_attr>
+        <mandatory>true</mandatory>
+        <name>CloudAccount</name>
+        <order>20</order>
+        <resource_op_unique_id>3032</resource_op_unique_id>
+        <sys_class_name>sn_cmp_bp_global_prop</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:36</sys_created_on>
+        <sys_id>390320b4db7a4414085bf05e0f96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CloudAccount</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_global_prop_390320b4db7a4414085bf05e0f96190b</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:36</sys_updated_on>
+    </sn_cmp_bp_global_prop>
+</record_update>

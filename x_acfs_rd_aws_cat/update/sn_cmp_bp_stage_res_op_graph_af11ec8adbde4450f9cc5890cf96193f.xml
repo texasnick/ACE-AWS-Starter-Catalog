@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_res_op_graph">
+    <sn_cmp_bp_stage_res_op_graph action="INSERT_OR_UPDATE">
+        <blueprint_stage_op display_value="">b301e88adbde4450f9cc5890cf9619bd</blueprint_stage_op>
+        <child_operation display_value="AWS EC2 Microsoft Windows Server 2016 Base.PostProvision">5f11ec8adbde4450f9cc5890cf961925</child_operation>
+        <in_degree>0</in_degree>
+        <parent_operation display_value="AWS EC2 Microsoft Windows Server 2016 Base.Provision">48112c8adbde4450f9cc5890cf96190d</parent_operation>
+        <status>true</status>
+        <sys_class_name>sn_cmp_bp_stage_res_op_graph</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 14:52:16</sys_created_on>
+        <sys_id>af11ec8adbde4450f9cc5890cf96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_res_op_graph_af11ec8adbde4450f9cc5890cf96193f</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 14:52:16</sys_updated_on>
+    </sn_cmp_bp_stage_res_op_graph>
+</record_update>

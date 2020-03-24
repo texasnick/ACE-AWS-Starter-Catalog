@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step">
+    <sn_cmp_rb_op_impl_step action="DELETE">
+        <capi_interface/>
+        <capi_method/>
+        <capi_version/>
+        <condition/>
+        <depends_on/>
+        <enabled>true</enabled>
+        <flow_type/>
+        <force_async>false</force_async>
+        <interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</interface>
+        <interface_operation display_value="Create Stack">32af8788d732220097eb6ccf6e61032f</interface_operation>
+        <name>Stack Orchestration Interface.Create Stack</name>
+        <operationimpl display_value="Provision">7199eccadb128450f9cc5890cf961949</operationimpl>
+        <order>1</order>
+        <owner_type>2</owner_type>
+        <parent_step/>
+        <parentstep/>
+        <product_type/>
+        <provider/>
+        <provider_ref/>
+        <provider_type/>
+        <resource_interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</resource_interface>
+        <sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:29:18</sys_created_on>
+        <sys_id>b199eccadb128450f9cc5890cf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stack Orchestration Interface.Create Stack</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_step_b199eccadb128450f9cc5890cf961957</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:29:18</sys_updated_on>
+        <target_entity_flow/>
+    </sn_cmp_rb_op_impl_step>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_impl_step_b199eccadb128450f9cc5890cf961957</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_step"><sn_cmp_rb_op_impl_step action="INSERT_OR_UPDATE"><capi_interface/><capi_method/><capi_version/><condition/><depends_on/><enabled>true</enabled><flow_type/><force_async>false</force_async><interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</interface><interface_operation display_value="Create Stack">32af8788d732220097eb6ccf6e61032f</interface_operation><name>Stack Orchestration Interface.Create Stack</name><operationimpl display_value="Provision">7199eccadb128450f9cc5890cf961949</operationimpl><order>1</order><owner_type>2</owner_type><parent_step/><parentstep/><product_type/><provider/><provider_ref/><provider_type/><resource_interface display_value="Stack Orchestration Interface">64271337d722220097eb6ccf6e6103f5</resource_interface><sys_class_name>sn_cmp_rb_op_impl_step</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:29:18</sys_created_on><sys_id>b199eccadb128450f9cc5890cf961957</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Stack Orchestration Interface.Create Stack</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_impl_step_b199eccadb128450f9cc5890cf961957</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:29:18</sys_updated_on><target_entity_flow/></sn_cmp_rb_op_impl_step></record_update>]]></payload>
+        <payload_hash>2036683805</payload_hash>
+        <record_name>Stack Orchestration Interface.Create Stack</record_name>
+        <reverted_from/>
+        <source>d17439e0dbe20890085bf05e0f9619b1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>jgamble</sys_created_by>
+        <sys_created_on>2020-01-21 15:24:16</sys_created_on>
+        <sys_id>9a2535a4dbe20890085bf05e0f961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fc8b44b1c0000001</sys_recorded_at>
+        <sys_updated_by>jgamble</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:24:16</sys_updated_on>
+        <type>Operation Step</type>
+        <update_guid>9e99eccaac128450d344e98c61643b7c</update_guid>
+        <update_guid_history>9e99eccaac128450d344e98c61643b7c:2036683805,7933fdaca7a20890bd89fb7bbf3b863a:600011740,9e99eccaac128450d344e98c61643b7c:2036683805</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9b599f55dbbe8814085bf05e0f96193b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-05 16:53:11</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_impl_step">sn_cmp_rb_op_impl_step</sys_db_object>
+        <sys_id>6b3492a8473544fa82af801ed2fc72c4</sys_id>
+        <sys_metadata>b199eccadb128450f9cc5890cf961957</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stack Orchestration Interface.Create Stack</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_impl_step_b199eccadb128450f9cc5890cf961957</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_impl_step_b199eccadb128450f9cc5890cf961957">9a2535a4dbe20890085bf05e0f961966</sys_update_version>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-05 16:53:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

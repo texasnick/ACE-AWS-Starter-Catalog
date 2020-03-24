@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cleanup">7d17e486db128450f9cc5890cf96194d</sc_cat_item>
+        <sc_category display_value="Compute">86d85478678232005ca552e457415a79</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:26</sys_created_on>
+        <sys_id>36172886db128450f9cc5890cf96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.Cleanup</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sc_cat_item_category_36172886db128450f9cc5890cf96190f</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:26</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sc_cat_item_category_36172886db128450f9cc5890cf96190f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cleanup">7d17e486db128450f9cc5890cf96194d</sc_cat_item><sc_category display_value="Compute">86d85478678232005ca552e457415a79</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:18:26</sys_created_on><sys_id>36172886db128450f9cc5890cf96190f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compute.Cleanup</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sc_cat_item_category_36172886db128450f9cc5890cf96190f</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:18:26</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>37574745</payload_hash>
+        <record_name>Compute.Cleanup</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:18:26</sys_created_on>
+        <sys_id>fa172886db128450f9cc5890cf961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7c12250000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:18:26</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>361728865c1284507475e5ea37c5f811</update_guid>
+        <update_guid_history>361728865c1284507475e5ea37c5f811:37574745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a4286c0adb128450f9cc5890cf9619ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:22:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>186f27af41a348a49f4db62012c24271</sys_id>
+        <sys_metadata>36172886db128450f9cc5890cf96190f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compute.Cleanup</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent display_value="">7d17e486db128450f9cc5890cf96194d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_36172886db128450f9cc5890cf96190f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_36172886db128450f9cc5890cf96190f">fa172886db128450f9cc5890cf961911</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:22:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

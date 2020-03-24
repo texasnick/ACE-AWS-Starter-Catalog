@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param">
+    <sn_cmp_rb_op_param action="DELETE">
+        <interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface>
+        <name>StartDate</name>
+        <operation display_value="Provision">e9d6a846db128450f9cc5890cf9619f6</operation>
+        <order>70</order>
+        <sys_class_name>sn_cmp_rb_op_param</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:18</sys_created_on>
+        <sys_id>96d6e846db128450f9cc5890cf96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StartDate</sys_name>
+        <sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_param_96d6e846db128450f9cc5890cf96198e</sys_update_name>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:18</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_rb_op_param>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</application>
+        <file_path/>
+        <instance_id>6a752aa1dba37344b847ac44d49619db</instance_id>
+        <instance_name>afspolyclouddev</instance_name>
+        <name>sn_cmp_rb_op_param_96d6e846db128450f9cc5890cf96198e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_param"><sn_cmp_rb_op_param action="INSERT_OR_UPDATE"><interface display_value="Azure VM RedHat 7 Resource Interface">a5d6a846db128450f9cc5890cf9619ed</interface><name>StartDate</name><operation display_value="Provision">e9d6a846db128450f9cc5890cf9619f6</operation><order>70</order><sys_class_name>sn_cmp_rb_op_param</sys_class_name><sys_created_by>david.loo</sys_created_by><sys_created_on>2020-01-13 15:17:18</sys_created_on><sys_id>96d6e846db128450f9cc5890cf96198e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StartDate</sys_name><sys_package display_value="ACP4G-RD-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package><sys_policy/><sys_scope display_value="ACP4G-RD-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope><sys_update_name>sn_cmp_rb_op_param_96d6e846db128450f9cc5890cf96198e</sys_update_name><sys_updated_by>david.loo</sys_updated_by><sys_updated_on>2020-01-13 15:17:18</sys_updated_on><type>1</type></sn_cmp_rb_op_param></record_update>]]></payload>
+        <payload_hash>419856012</payload_hash>
+        <record_name>StartDate</record_name>
+        <reverted_from/>
+        <source>21697149db96cc10f9cc5890cf961968</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:17:18</sys_created_on>
+        <sys_id>92d6e846db128450f9cc5890cf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f9f7b0acd0000001</sys_recorded_at>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:17:18</sys_updated_on>
+        <type>OperationParameter</type>
+        <update_guid>dad6e84621128450553bb83806beb88f</update_guid>
+        <update_guid_history>dad6e84621128450553bb83806beb88f:419856012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4858284adb128450f9cc5890cf9619fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>david.loo</sys_created_by>
+        <sys_created_on>2020-01-13 15:23:42</sys_created_on>
+        <sys_db_object display_value="" name="sn_cmp_rb_op_param">sn_cmp_rb_op_param</sys_db_object>
+        <sys_id>598061da061a4e9d902ac10e2521eb39</sys_id>
+        <sys_metadata>96d6e846db128450f9cc5890cf96198e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StartDate</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_scope_delete display_value="">1571f5b243e14d808f03ac72743c4000</sys_scope_delete>
+        <sys_update_name>sn_cmp_rb_op_param_96d6e846db128450f9cc5890cf96198e</sys_update_name>
+        <sys_update_version display_value="sn_cmp_rb_op_param_96d6e846db128450f9cc5890cf96198e">92d6e846db128450f9cc5890cf961990</sys_update_version>
+        <sys_updated_by>david.loo</sys_updated_by>
+        <sys_updated_on>2020-01-13 15:23:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

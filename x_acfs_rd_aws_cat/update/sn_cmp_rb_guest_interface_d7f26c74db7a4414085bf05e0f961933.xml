@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_guest_interface">
+    <sn_cmp_rb_guest_interface action="INSERT_OR_UPDATE">
+        <guestinterface display_value="AWS Ubuntu Server 16 LTS Resource Interface">17f26c74db7a4414085bf05e0f96192c</guestinterface>
+        <resource display_value="AWS Ubuntu Server 16 LTS Blueprint Resource">d3f26c74db7a4414085bf05e0f96192e</resource>
+        <sys_class_name>sn_cmp_rb_guest_interface</sys_class_name>
+        <sys_created_by>tom.blevins</sys_created_by>
+        <sys_created_on>2020-02-03 14:19:25</sys_created_on>
+        <sys_id>d7f26c74db7a4414085bf05e0f961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d3f26c74db7a4414085bf05e0f96192e</sys_name>
+        <sys_package display_value="ACE-AWS Starter Catalog" source="x_acfs_rd_aws_cat">2d697149db96cc10f9cc5890cf961965</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACE-AWS Starter Catalog">2d697149db96cc10f9cc5890cf961965</sys_scope>
+        <sys_update_name>sn_cmp_rb_guest_interface_d7f26c74db7a4414085bf05e0f961933</sys_update_name>
+        <sys_updated_by>tom.blevins</sys_updated_by>
+        <sys_updated_on>2020-02-03 14:19:25</sys_updated_on>
+    </sn_cmp_rb_guest_interface>
+</record_update>
